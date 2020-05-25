@@ -1,6 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>FF14相关记录</title>
+    <url>/ffe447d5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在这里记录一些平时用的，FF14相关的工具w 这样也比较方便以后来找。</p>
+<h1 id="官方网站"><a href="#官方网站" class="headerlink" title="官方网站"></a>官方网站</h1><h2 id="国际服"><a href="#国际服" class="headerlink" title="国际服"></a>国际服</h2><ul>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/playguide/db/" target="_blank" rel="noopener">艾欧泽亚数据库</a>（日文，可查询物品、副本、任务、笔记、成就相关信息）</li>
+<li><a href="https://secure.square-enix.com/account/app/svc/mogstation" target="_blank" rel="noopener">莫古站</a>（日文，管理账户信息、充值、商城）</li>
+</ul>
+<h2 id="中国服"><a href="#中国服" class="headerlink" title="中国服"></a>中国服</h2><ul>
+<li><a href="http://act.ff.sdo.com/20180707jifen/index.html#/home" target="_blank" rel="noopener">艾欧泽亚积分兑换平台</a>（积分兑换）</li>
+</ul>
+<h1 id="常用站点"><a href="#常用站点" class="headerlink" title="常用站点"></a>常用站点</h1><ul>
+<li><a href="https://ff14restanet.com/" target="_blank" rel="noopener">能工巧匠素材计算器</a>（日文）</li>
+<li><a href="https://ffxiv.rs.exdreams.net/crafter/" target="_blank" rel="noopener">FFXIV俺TOOLS：能工巧匠制作模拟器</a>（日文）</li>
+<li><a href="https://jp.ff14angler.com/" target="_blank" rel="noopener">饥饿的猫</a>（日文，钓鱼相关信息。可切换至中文，中文版对应国服数据）</li>
+<li><a href="https://ffxiv.gt.exdreams.net/" target="_blank" rel="noopener">FFXIV俺TOOLS：大地使者时钟</a>（日文）</li>
+<li><a href="https://ffxiv.wl.exdreams.net/" target="_blank" rel="noopener">FFXIV俺TOOLS：天气预报</a>（日文）</li>
+<li><a href="https://ff14fish.carbuncleplushy.com/" target="_blank" rel="noopener">鱼类追踪器</a>（日文）</li>
+<li><a href="https://ffxiv-the-hunt.net/zeromus" target="_blank" rel="noopener">FFHunt - Zeromus</a>（日文，狩猎记录。Zeromus服务器资料，可切换至其他服务器）</li>
+<li><a href="https://ff14moomoo.com/" target="_blank" rel="noopener">Moomoo的笔记本</a>（日文，综合型笔记。我常用优雷卡NM记录功能）</li>
+<li><a href="https://shakikatsu.com/stardustrod" target="_blank" rel="noopener">藏宝图G8/G10/G12记录工具</a>（日文）</li>
+<li><a href="https://universalis.app/" target="_blank" rel="noopener">Universalis</a>（日文，商城查询器，由安装了ACT上传插件的各位来上传商城信息）</li>
+<li><a href="https://annangela.github.io/FFXIVSightseeingGuide/" target="_blank" rel="noopener">Erozea Sightseeing Guide</a>（中文，新生篇探索笔记记录器。可切换至日文）</li>
+<li><a href="https://ffxivchocobo.com/jp" target="_blank" rel="noopener">陆行鸟颜色计算器</a>（日文）</li>
+<li><a href="http://ffxiv.ariyala.com/" target="_blank" rel="noopener">Ariyala的工具箱</a>（英文，配装器。可切换至日文。也有中文但是数据停留在4.5版本）</li>
+</ul>
+<h1 id="常用资料"><a href="#常用资料" class="headerlink" title="常用资料"></a>常用资料</h1><ul>
+<li><a href="https://ff14.huijiwiki.com/wiki/ItemSearch" target="_blank" rel="noopener">灰机Wiki：物品查询器</a>（中文，对应国服版本资料）</li>
+<li><a href="https://www.ffxivcollection.com/" target="_blank" rel="noopener">FFXIV ARMOURY COLLECTION</a>（日文，装备外观收集站）</li>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/character/4053609/blog/3864115/" target="_blank" rel="noopener">Lodestone：导随副本笔记：目录</a></li>
+<li><a href="https://bbs.nga.cn/read.php?tid=13014248&rand=600" target="_blank" rel="noopener">NGA：黄道武器（新生）&amp;元灵武器（苍天）流程</a>（中文）</li>
+</ul>
+<h2 id="战斗相关"><a href="#战斗相关" class="headerlink" title="战斗相关"></a>战斗相关</h2><ul>
+<li><a href="http://www.eorzean.info/archives/32506743.html" target="_blank" rel="noopener">Eorzean：80级的GCD/DoT倍率与SS阈值</a>（日文）</li>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/character/7919013/blog/3824760/" target="_blank" rel="noopener">Lodestone：纷争前线攻略 综合篇</a></li>
+<li>Maygi‘s PotD 1-200 Handbook（红莲版本单刷死宫心得，英文原文（<a href="https://docs.google.com/document/d/1oV_SIs5L9kD_NHO2ZsU4Tw8R6iQ4v1RC5fZPQqK6cD8/edit" target="_blank" rel="noopener">Google Docs</a>），日文翻译（Eorzean，<a href="http://www.eorzean.info/archives/25940891.html" target="_blank" rel="noopener">前篇</a>、<a href="http://www.eorzean.info/archives/25940891.html" target="_blank" rel="noopener">后篇</a>），中文翻译（<a href="https://bbs.nga.cn/read.php?tid=14509371" target="_blank" rel="noopener">NGA</a>））</li>
+<li>Maygi’s HoH 1-100 Handbook（红莲版本单刷天柱心得，英文原文（<a href="https://docs.google.com/document/d/1YVBSTOgJO-xOAB6YyKZEZRikjXFPle6Ihf_E7VdmQnI/edit" target="_blank" rel="noopener">Google Docs</a>），日文翻译（<a href="http://www.eorzean.info/archives/27750781.html" target="_blank" rel="noopener">Eorzean</a>），中文翻译（<a href="https://bbs.nga.cn/read.php?tid=16406640" target="_blank" rel="noopener">NGA</a>））</li>
+<li><a href="http://www.eorzean.info/archives/30540680.html" target="_blank" rel="noopener">Eorzean：青魔法No 01～49（Patch 4.5）</a>（日文）</li>
+<li><a href="http://www.eorzean.info/archives/33982951.html" target="_blank" rel="noopener">Eorzean：青魔法No 50～80（Patch 5.15）</a>（日文）</li>
+<li><a href="https://blog.lariceworks.net/archives/152" target="_blank" rel="noopener">おこめ：假面嘉年华 No 01～25（Patch 4.5）</a>（日文）</li>
+<li><a href="https://blog.lariceworks.net/archives/356" target="_blank" rel="noopener">おこめ：假面嘉年华 No 26～30（Patch 5.15）</a>（日文）</li>
+</ul>
+<h2 id="生产采集相关"><a href="#生产采集相关" class="headerlink" title="生产采集相关"></a>生产采集相关</h2><ul>
+<li><a href="http://yumemage.blog.fc2.com/" target="_blank" rel="noopener">做梦也要FF14</a>（日文，生产采集相关资料站）</li>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/character/2199398/blog/3573787/" target="_blank" rel="noopener">Lodestone：飞空艇掉落（Patch 4.1）</a></li>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/character/2199398/blog/3701758/" target="_blank" rel="noopener">Lodestone：潜水艇-溺没海掉落（Patch 5.0）</a></li>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/character/2199398/blog/4201474/" target="_blank" rel="noopener">Lodestone：潜水艇-灰海掉落（Patch 5.2）</a></li>
+</ul>
+<h2 id="金碟游乐场相关"><a href="#金碟游乐场相关" class="headerlink" title="金碟游乐场相关"></a>金碟游乐场相关</h2><ul>
+<li><a href="https://www.blogbear.xyz/article/category/fashioncheck" target="_blank" rel="noopener">BEAR GAME：时尚检测</a>（日文）</li>
+<li><a href="https://www.ffxivcollection.com/" target="_blank" rel="noopener">某位拉拉菲尔的冒险录：LoVM挑战模式攻略</a>（日文）</li>
+</ul>
+<h2 id="狩猎相关"><a href="#狩猎相关" class="headerlink" title="狩猎相关"></a>狩猎相关</h2><ul>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/character/2511269/blog/2910654/" target="_blank" rel="noopener">Lodestone：狩猎地图：拉诺西亚</a></li>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/character/2511269/blog/2910686/" target="_blank" rel="noopener">Lodestone：狩猎地图：萨纳兰&amp;摩杜纳</a></li>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/character/2511269/blog/2910663/" target="_blank" rel="noopener">Lodestone：狩猎地图：黑衣森&amp;库尔札斯中央高地</a></li>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/character/6537149/blog/3633816/" target="_blank" rel="noopener">Lodestone：S怪笔记：新生的艾欧泽亚</a></li>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/character/2511269/blog/2910707/" target="_blank" rel="noopener">Lodestone：狩猎地图：苍天的伊修加德</a></li>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/character/6537149/blog/3634484/" target="_blank" rel="noopener">Lodestone：S怪笔记：苍天的伊修加德</a></li>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/character/2511269/blog/3417151/" target="_blank" rel="noopener">Lodestone：狩猎地图：红莲的解放者</a></li>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/character/6537149/blog/3431213/" target="_blank" rel="noopener">Lodestone：S怪笔记：红莲的解放者</a></li>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/character/2511269/blog/4158791/" target="_blank" rel="noopener">Lodestone：狩猎地图：漆黑的反叛者</a></li>
+<li><a href="https://jp.finalfantasyxiv.com/lodestone/character/6537149/blog/4157448/" target="_blank" rel="noopener">Lodestone：S怪笔记：漆黑的反叛者</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+  </entry>
+  <entry>
     <title>20200524</title>
     <url>/fc754f05/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Alora！</p>
@@ -9,7 +78,7 @@
 <p>不过总之我先这么做了（？</p>
 ]]></content>
       <categories>
-        <category>杂谈</category>
+        <category>追忆</category>
       </categories>
   </entry>
   <entry>
@@ -34,9 +103,11 @@
 <p>我不知道她是否仍安好，也无处向她确认。我只能但愿我希望她安好的这个愿望，能穿越可能需要穿越的时空、跨过可能需要跨过的世界的边境，到达她的身旁。</p>
 ]]></content>
       <categories>
-        <category>杂谈</category>
-        <category>黑历史</category>
+        <category>追忆</category>
       </categories>
+      <tags>
+        <tag>黑历史</tag>
+      </tags>
   </entry>
   <entry>
     <title>20200521</title>
@@ -90,8 +161,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>FF14</category>
       </categories>
+      <tags>
+        <tag>FF14</tag>
+      </tags>
   </entry>
   <entry>
     <title>20200515</title>
@@ -113,8 +186,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>明日方舟</category>
       </categories>
+      <tags>
+        <tag>明日方舟</tag>
+      </tags>
   </entry>
   <entry>
     <title>阅文霸王合同事件相关杂谈</title>
@@ -190,8 +265,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>肖战相关</category>
       </categories>
+      <tags>
+        <tag>肖战相关</tag>
+      </tags>
   </entry>
   <entry>
     <title>20200426</title>
@@ -209,8 +286,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>明日方舟</category>
       </categories>
+      <tags>
+        <tag>明日方舟</tag>
+      </tags>
   </entry>
   <entry>
     <title>20200425</title>
@@ -225,8 +304,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>肖战相关</category>
       </categories>
+      <tags>
+        <tag>肖战相关</tag>
+      </tags>
   </entry>
   <entry>
     <title>20200424 VS红龙</title>
@@ -263,7 +344,6 @@
 ]]></content>
       <categories>
         <category>追忆</category>
-        <category>给将死的世界的17重奏</category>
       </categories>
   </entry>
   <entry>
@@ -318,6 +398,9 @@
       <categories>
         <category>杂谈</category>
       </categories>
+      <tags>
+        <tag>同人相关</tag>
+      </tags>
   </entry>
   <entry>
     <title>追忆历史-强制恋爱</title>
@@ -383,8 +466,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>FF14</category>
       </categories>
+      <tags>
+        <tag>FF14</tag>
+      </tags>
   </entry>
   <entry>
     <title>20200409</title>
@@ -397,8 +482,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>FF14</category>
       </categories>
+      <tags>
+        <tag>FF14</tag>
+      </tags>
   </entry>
   <entry>
     <title>20200407</title>
@@ -423,8 +510,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>FF14</category>
       </categories>
+      <tags>
+        <tag>FF14</tag>
+      </tags>
   </entry>
   <entry>
     <title>20200405</title>
@@ -437,8 +526,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>FF14</category>
       </categories>
+      <tags>
+        <tag>FF14</tag>
+      </tags>
   </entry>
   <entry>
     <title>20200403</title>
@@ -461,8 +552,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>FF14</category>
       </categories>
+      <tags>
+        <tag>FF14</tag>
+      </tags>
   </entry>
   <entry>
     <title>20200402</title>
@@ -484,8 +577,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>FF14</category>
       </categories>
+      <tags>
+        <tag>FF14</tag>
+      </tags>
   </entry>
   <entry>
     <title>20200401</title>
@@ -511,8 +606,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>FF14</category>
       </categories>
+      <tags>
+        <tag>FF14</tag>
+      </tags>
   </entry>
   <entry>
     <title>20200331</title>
@@ -547,6 +644,9 @@
       <categories>
         <category>杂谈</category>
       </categories>
+      <tags>
+        <tag>同人相关</tag>
+      </tags>
   </entry>
   <entry>
     <title>大洋垂钓心得</title>
@@ -611,6 +711,9 @@
 <p>之前发在Lofter的自我介绍已经搬运过来了，可以通过侧边栏访问w</p>
 <p>日期早于本篇日志的所有内容均为旧内容搬运</p>
 ]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
   </entry>
   <entry>
     <title>20200223</title>
@@ -623,6 +726,9 @@
       <categories>
         <category>杂谈</category>
       </categories>
+      <tags>
+        <tag>明日方舟</tag>
+      </tags>
   </entry>
   <entry>
     <title>Remnant of The Distant Future Aftermath</title>
@@ -711,6 +817,9 @@
       <categories>
         <category>心情</category>
       </categories>
+      <tags>
+        <tag>微博</tag>
+      </tags>
   </entry>
   <entry>
     <title>20181211</title>
@@ -720,6 +829,9 @@
       <categories>
         <category>心情</category>
       </categories>
+      <tags>
+        <tag>微博</tag>
+      </tags>
   </entry>
   <entry>
     <title>20160211</title>
@@ -732,6 +844,9 @@
       <categories>
         <category>心情</category>
       </categories>
+      <tags>
+        <tag>黑历史</tag>
+      </tags>
   </entry>
   <entry>
     <title>做個寫手問卷！</title>
@@ -825,8 +940,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>同人相关</category>
       </categories>
+      <tags>
+        <tag>DNF</tag>
+      </tags>
   </entry>
   <entry>
     <title>20150318</title>
@@ -855,6 +972,9 @@
       <categories>
         <category>心情</category>
       </categories>
+      <tags>
+        <tag>DNF</tag>
+      </tags>
   </entry>
   <entry>
     <title>2014写手退化录</title>
@@ -925,6 +1045,9 @@
       <categories>
         <category>杂谈</category>
       </categories>
+      <tags>
+        <tag>同人相关</tag>
+      </tags>
   </entry>
   <entry>
     <title>追忆那所逝去 再也无法挽回的时光</title>
@@ -958,6 +1081,9 @@
       <categories>
         <category>杂谈</category>
       </categories>
+      <tags>
+        <tag>DNF</tag>
+      </tags>
   </entry>
   <entry>
     <title>绝望的北方 Stage 0</title>
@@ -973,8 +1099,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>同人相关</category>
       </categories>
+      <tags>
+        <tag>DNF</tag>
+      </tags>
   </entry>
   <entry>
     <title>20140505</title>
@@ -983,6 +1111,7 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
+        <category>黑历史</category>
       </categories>
   </entry>
   <entry>
