@@ -3,7 +3,11 @@
   <entry>
     <title>FF14相关记录</title>
     <url>/ffe447d5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在这里记录一些平时用的，FF14相关的工具w 这样也比较方便以后来找。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在这里记录一些平时用的，FF14相关的工具w</p>
+<p>记在这里也比较方便以后来找以及分享。</p>
+<a id="more"></a>
+
+<p>最后更新日期：2020-05-25 20:30</p>
 <h1 id="官方网站"><a href="#官方网站" class="headerlink" title="官方网站"></a>官方网站</h1><h2 id="国际服"><a href="#国际服" class="headerlink" title="国际服"></a>国际服</h2><ul>
 <li><a href="https://jp.finalfantasyxiv.com/lodestone/playguide/db/" target="_blank" rel="noopener">艾欧泽亚数据库</a>（日文，可查询物品、副本、任务、笔记、成就相关信息）</li>
 <li><a href="https://secure.square-enix.com/account/app/svc/mogstation" target="_blank" rel="noopener">莫古站</a>（日文，管理账户信息、充值、商城）</li>
@@ -47,6 +51,10 @@
 <li><a href="https://jp.finalfantasyxiv.com/lodestone/character/2199398/blog/3573787/" target="_blank" rel="noopener">Lodestone：飞空艇掉落（Patch 4.1）</a></li>
 <li><a href="https://jp.finalfantasyxiv.com/lodestone/character/2199398/blog/3701758/" target="_blank" rel="noopener">Lodestone：潜水艇-溺没海掉落（Patch 5.0）</a></li>
 <li><a href="https://jp.finalfantasyxiv.com/lodestone/character/2199398/blog/4201474/" target="_blank" rel="noopener">Lodestone：潜水艇-灰海掉落（Patch 5.2）</a></li>
+<li><a href="https://ff14matometta.com/archives/%E3%80%90ff14%E3%80%91%E3%82%AA%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%B3%E3%82%B016000%E7%82%B9%E3%81%AE%E5%8F%96%E3%82%8A%E6%96%B9.html" target="_blank" rel="noopener">大洋垂钓16000分攻略</a>（日文）<ul>
+<li><a href="/cff5ebb9/">简要翻译</a></li>
+</ul>
+</li>
 </ul>
 <h2 id="金碟游乐场相关"><a href="#金碟游乐场相关" class="headerlink" title="金碟游乐场相关"></a>金碟游乐场相关</h2><ul>
 <li><a href="https://www.blogbear.xyz/article/category/fashioncheck" target="_blank" rel="noopener">BEAR GAME：时尚检测</a>（日文）</li>
@@ -68,6 +76,9 @@
       <categories>
         <category>笔记</category>
       </categories>
+      <tags>
+        <tag>FF14</tag>
+      </tags>
   </entry>
   <entry>
     <title>20200524</title>
