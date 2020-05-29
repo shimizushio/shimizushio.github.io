@@ -58,7 +58,7 @@
         <category>笔记</category>
       </categories>
       <tags>
-        <tag>FF14</tag>
+        <tag>明日方舟</tag>
       </tags>
   </entry>
   <entry>
@@ -299,8 +299,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>肖战相关</category>
       </categories>
+      <tags>
+        <tag>肖战相关</tag>
+      </tags>
   </entry>
   <entry>
     <title>20200501</title>
@@ -394,8 +396,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>FF14</category>
       </categories>
+      <tags>
+        <tag>FF14</tag>
+      </tags>
   </entry>
   <entry>
     <title>追忆历史-给将死的世界的17重奏（1）</title>
@@ -522,9 +526,11 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>FF14</category>
-        <category>明日方舟</category>
       </categories>
+      <tags>
+        <tag>明日方舟</tag>
+        <tag>FF14</tag>
+      </tags>
   </entry>
   <entry>
     <title>20200410</title>
@@ -768,8 +774,10 @@
 ]]></content>
       <categories>
         <category>杂谈</category>
-        <category>FF14</category>
       </categories>
+      <tags>
+        <tag>FF14</tag>
+      </tags>
   </entry>
   <entry>
     <title>Welcome to Shio&#39;s Wonderland（第一篇日志）</title>
