@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>笔记：反饥饿的猫广告插件检测</title>
+    <url>/26b30692/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>原贴：<a href="https://bbs.nga.cn/read.php?tid=21994398" target="_blank" rel="noopener">https://bbs.nga.cn/read.php?tid=21994398</a></p>
+<p>最近饥饿的猫不怎么上得去了，据说是开始检测Adblock插件，不管你怎么设置只要开了Adblock插件就不让进</p>
+<p>最近＜猫はお腹がすいた＞サイトがAdblockプラグインの検測をはじまったようで、どのように設置されているかに関わらず、Adblockがある限りアクセスを拒否するようになりました。</p>
+<p>那我是不可能接受的，本来我是把饥饿的猫加在Adblock的白名单里的，有点广告也都忍了，就当给饥饿的猫的广告费了。既然现在开了Adblock就不让进，那我就要推荐一下这个在NGA看到的油猴脚本了</p>
+<p>それは受け入れかねます。本来であればこちらは＜猫はお腹がすいた＞をAdblockのホワイトリストに入れて使っていて、広告だってサイトへの支持などと思いながらガマンしましたが、ホワイトリストでも許されないことになったら、NGAで見ていたこのViolentMonkeyスクリプトをおすすめしたくなりました。</p>
+<p>使用这个油猴脚本需要有<a href="http://www.tampermonkey.net/" target="_blank" rel="noopener">Violentmonkey插件</a>。</p>
+<p>こちらのスクリプトを使うには<a href="http://www.tampermonkey.net/" target="_blank" rel="noopener">Violentmonkeyプラグイン</a>が必要になります。</p>
+<p><a href="https://greasyfork.org/scripts/404473-ff14angler-cracker/code/ff14angler-cracker.user.js" target="_blank" rel="noopener">点击这里安装脚本。</a></p>
+<p><a href="https://greasyfork.org/scripts/404473-ff14angler-cracker/code/ff14angler-cracker.user.js" target="_blank" rel="noopener">ここをクリックして</a>スクリプトをインストールします。また、NGAでの利用者は主に中国人であるため、スクリプトに入っていたのは中国語の＜猫はお腹がすいた＞</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;cn.ff14angler.com&#x2F;*</span><br></pre></td></tr></table></figure>
+
+<p>でした。日本語の＜猫はお腹がすいた＞で使用したい場合、インストール後にViolentmonkeyプラグインの設置に入って、インストールしたスクリプトの5行目の</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;cn.ff14angler.com&#x2F;*</span><br></pre></td></tr></table></figure>
+
+<p>を</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;jp.ff14angler.com&#x2F;*</span><br></pre></td></tr></table></figure>
+
+<p>に変更すればOK。</p>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>FF14</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【FF14】鱼王分解笔记</title>
     <url>/8f0ad4c2/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>感觉最近饿猫总是上不去…自己做个笔记记录一下好了</p>
