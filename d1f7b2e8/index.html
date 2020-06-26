@@ -128,33 +128,24 @@
 
                 
                     
+    <div class="vcomments" id="#vcomments"></div>
+    
+<script src="https://unpkg.com/valine/dist/Valine.min.js"></script>
+
+        <script>
+            new Valine({
+                el: '##vcomments',
+                appId: 'F5iRGL4pb3HjGBn4D0Sewu42-MdYXbMMI',
+                appKey: 'hAEcpwsKs7dvOPcQltL2Gwpg',
+                notify: 'false',
+                verify: 'true',
+                avatar: 'mp',
+                pageSize: '10',
+                placeholder: '请输入...'
+            })
+        </script>
+        
                         
-  <div class="gitalk" id="gitalk-container"></div>
-  
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-
-  
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-  
-<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
-
-  <script type="text/javascript">
-    var gitalk = new Gitalk({
-      clientID: '3e02ca1dce8162c0eb6f',
-      clientSecret: 'ae836525faecc923fcdb9e068c028484bddccda2',
-      repo: 'shimizushio.github.io',
-      owner: 'shimizushio',
-      admin: ['shimizushio'],
-      // id: location.pathname,      // Ensure uniqueness and length less than 50
-      id: md5(location.pathname),
-      distractionFreeMode: false,  // Facebook-like distraction free mode
-      pagerDirection: 'last'
-    })
-
-  gitalk.render('gitalk-container')
-  </script>
-
                             
 
 </article>
