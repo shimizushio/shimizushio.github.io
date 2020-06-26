@@ -9,6 +9,7 @@
 <p>应该会比较方便想留评论却又嫌注册Github麻烦的朋友吧<del>（不会有那种人的）</del></p>
 <p>6月26日之前的评论内容我会自己从Gitalk上搬运过来。</p>
 <p>文字仓库和17企划也会择机换成Valine评论系统。</p>
+<h1 id="如何在Valine评论系统带上头像？"><a href="#如何在Valine评论系统带上头像？" class="headerlink" title="如何在Valine评论系统带上头像？"></a>如何在Valine评论系统带上头像？</h1><p>总结自Valine评论系统的说明，如果想带上头像的话，需要在<a href="http://cn.gravatar.com/" target="_blank" rel="noopener">Gravatar</a>注册，然后在评论的时候在“邮箱”一栏填入留下Gravatar注册时使用的邮箱即可。</p>
 ]]></content>
       <categories>
         <category>杂谈</category>

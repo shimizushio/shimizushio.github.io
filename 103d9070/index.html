@@ -28,7 +28,7 @@
 <meta property="og:description" content="因为是和博客本身相关的内容所以还是单独开一篇日志告知一下（。 主站的主题也换成了和文字仓库一样的NexT，并把评论系统由Gitalk更换成了Valine。 至于为什么要这么做，大概是因为Gitalk最终还是要注册Github账号才能评论，而Valine可以直接不用注册任何账号就能直接留下评论。 应该会比较方便想留评论却又嫌注册Github麻烦的朋友吧（不会有那种人的） 6月26日之前的评论内容我会">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-06-26T07:52:48.000Z">
-<meta property="article:modified_time" content="2020-06-26T06:56:00.296Z">
+<meta property="article:modified_time" content="2020-06-26T07:07:27.679Z">
 <meta property="article:author" content="Shimizu Shio">
 <meta name="twitter:card" content="summary">
 
@@ -195,7 +195,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-06-26 15:52:48 / 修改时间：14:56:00" itemprop="dateCreated datePublished" datetime="2020-06-26T15:52:48+08:00">2020-06-26</time>
+              <time title="创建时间：2020-06-26 15:52:48 / 修改时间：15:07:27" itemprop="dateCreated datePublished" datetime="2020-06-26T15:52:48+08:00">2020-06-26</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -238,6 +238,7 @@
 <p>应该会比较方便想留评论却又嫌注册Github麻烦的朋友吧<del>（不会有那种人的）</del></p>
 <p>6月26日之前的评论内容我会自己从Gitalk上搬运过来。</p>
 <p>文字仓库和17企划也会择机换成Valine评论系统。</p>
+<h1 id="如何在Valine评论系统带上头像？"><a href="#如何在Valine评论系统带上头像？" class="headerlink" title="如何在Valine评论系统带上头像？"></a>如何在Valine评论系统带上头像？</h1><p>总结自Valine评论系统的说明，如果想带上头像的话，需要在<a href="http://cn.gravatar.com/" target="_blank" rel="noopener">Gravatar</a>注册，然后在评论的时候在“邮箱”一栏填入留下Gravatar注册时使用的邮箱即可。</p>
 
     </div>
 
@@ -269,7 +270,20 @@
 
           </div>
           
-    <div class="comments" id="valine-comments"></div>
+      <div class="tabs tabs-comment">
+        <ul class="nav-tabs">
+            <li class="tab"><a href="#comment-gitalk">gitalk</a></li>
+            <li class="tab"><a href="#comment-valine">valine</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane gitalk" id="comment-gitalk">
+              <div class="comments" id="gitalk-container"></div>
+            </div>
+            <div class="tab-pane valine" id="comment-valine">
+              <div class="comments" id="valine-comments"></div>
+            </div>
+        </div>
+      </div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -316,6 +330,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#如何在Valine评论系统带上头像？"><span class="nav-number">1.</span> <span class="nav-text">如何在Valine评论系统带上头像？</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -427,6 +442,26 @@
 
   
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '3e02ca1dce8162c0eb6f',
+      clientSecret: 'ae836525faecc923fcdb9e068c028484bddccda2',
+      repo        : 'shimizushio.github.io',
+      owner       : 'shimizushio',
+      admin       : ['shimizushio'],
+      id          : 'b97933b3b48a4a0d1f10230e71c214d4',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
+
 
 <script>
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
@@ -438,12 +473,12 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
     });
     new Valine({
       el         : '#valine-comments',
-      verify     : false,
-      notify     : false,
+      verify     : ,
+      notify     : ,
       appId      : 'F5iRGL4pb3HjGBn4D0Sewu42-MdYXbMMI',
       appKey     : 'hAEcpwsKs7dvOPcQltL2Gwpg',
       placeholder: "Just go go",
-      avatar     : 'mm',
+      avatar     : '',
       meta       : guest,
       pageSize   : '10' || 10,
       visitor    : false,

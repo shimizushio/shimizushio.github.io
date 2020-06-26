@@ -193,7 +193,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-06-26 15:52:48 / 修改时间：14:56:00" itemprop="dateCreated datePublished" datetime="2020-06-26T15:52:48+08:00">2020-06-26</time>
+              <time title="创建时间：2020-06-26 15:52:48 / 修改时间：15:07:27" itemprop="dateCreated datePublished" datetime="2020-06-26T15:52:48+08:00">2020-06-26</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -236,6 +236,7 @@
 <p>应该会比较方便想留评论却又嫌注册Github麻烦的朋友吧<del>（不会有那种人的）</del></p>
 <p>6月26日之前的评论内容我会自己从Gitalk上搬运过来。</p>
 <p>文字仓库和17企划也会择机换成Valine评论系统。</p>
+<h1 id="如何在Valine评论系统带上头像？"><a href="#如何在Valine评论系统带上头像？" class="headerlink" title="如何在Valine评论系统带上头像？"></a>如何在Valine评论系统带上头像？</h1><p>总结自Valine评论系统的说明，如果想带上头像的话，需要在<a href="http://cn.gravatar.com/" target="_blank" rel="noopener">Gravatar</a>注册，然后在评论的时候在“邮箱”一栏填入留下Gravatar注册时使用的邮箱即可。</p>
 
       
     </div>
@@ -1773,6 +1774,7 @@
   
 
 
+
 <script>
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
   NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
@@ -1783,12 +1785,12 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
     });
     new Valine({
       el         : '#valine-comments',
-      verify     : false,
-      notify     : false,
+      verify     : ,
+      notify     : ,
       appId      : 'F5iRGL4pb3HjGBn4D0Sewu42-MdYXbMMI',
       appKey     : 'hAEcpwsKs7dvOPcQltL2Gwpg',
       placeholder: "Just go go",
-      avatar     : 'mm',
+      avatar     : '',
       meta       : guest,
       pageSize   : '10' || 10,
       visitor    : false,
