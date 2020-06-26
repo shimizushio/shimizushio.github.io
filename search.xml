@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>20200626</title>
+    <url>/103d9070/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>因为是和博客本身相关的内容所以还是单独开一篇日志告知一下（。</p>
+<p>主站的主题也换成了和文字仓库一样的NexT，并把评论系统由Gitalk更换成了Valine。</p>
+<p>至于为什么要这么做，大概是因为Gitalk最终还是要注册Github账号才能评论，而Valine可以直接不用注册任何账号就能直接留下评论。</p>
+<p>应该会比较方便想留评论却又嫌注册Github麻烦的朋友吧<del>（不会有那种人的）</del></p>
+<p>6月26日之前的评论内容我会自己从Gitalk上搬运过来。</p>
+<p>文字仓库和17企划也会择机换成Valine评论系统。</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+  </entry>
+  <entry>
     <title>【翻译】LoVM挑战攻略</title>
     <url>/4a3ec725/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="/ffe447d5/">&lt; FF14笔记</a></p>
