@@ -28,7 +28,7 @@
 <meta property="og:description" content="原网址：  https:&#x2F;&#x2F;pente.koro-pokemon.com&#x2F;usum&#x2F;event.shtml https:&#x2F;&#x2F;pente.koro-pokemon.com&#x2F;usum&#x2F;event-day.shtml https:&#x2F;&#x2F;pente.koro-pokemon.com&#x2F;usum&#x2F;event-time.shtml  是未获得许可的擅自翻译分享。如果原作者认为翻译不妥欢迎联系删除。 無断翻訳のもの">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-06-28T05:15:29.000Z">
-<meta property="article:modified_time" content="2020-06-28T05:32:42.963Z">
+<meta property="article:modified_time" content="2020-06-28T05:32:53.306Z">
 <meta property="article:author" content="Shimizu Shio">
 <meta property="article:tag" content="精灵宝可梦">
 <meta name="twitter:card" content="summary">
@@ -196,7 +196,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-06-28 13:15:29 / 修改时间：13:32:42" itemprop="dateCreated datePublished" datetime="2020-06-28T13:15:29+08:00">2020-06-28</time>
+              <time title="创建时间：2020-06-28 13:15:29 / 修改时间：13:32:53" itemprop="dateCreated datePublished" datetime="2020-06-28T13:15:29+08:00">2020-06-28</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -209,6 +209,20 @@
             </span>
 
           
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/808a5b77/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/808a5b77/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -274,7 +288,10 @@
     <a href="/103d9070/" rel="prev" title="20200626">
       <i class="fa fa-chevron-left"></i> 20200626
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/84e47b91/" rel="next" title="testing">
+      testing <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -287,7 +304,7 @@
 
           </div>
           
-    <div class="comments" id="gitalk-container"></div>
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -348,7 +365,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">54</span>
+          <span class="site-state-item-count">55</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -446,23 +463,32 @@
 
   
 
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
 
 <script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID    : '3e02ca1dce8162c0eb6f',
-      clientSecret: 'ae836525faecc923fcdb9e068c028484bddccda2',
-      repo        : 'shimizushio.github.io',
-      owner       : 'shimizushio',
-      admin       : ['shimizushio'],
-      id          : '7367dc76ec6ee38082c4d7e90d6eb228',
-        language: 'zh-CN',
-      distractionFreeMode: true
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
     });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
+    new Valine({
+      el         : '#valine-comments',
+      verify     : ,
+      notify     : ,
+      appId      : 'F5iRGL4pb3HjGBn4D0Sewu42-MdYXbMMI',
+      appKey     : 'hAEcpwsKs7dvOPcQltL2Gwpg',
+      placeholder: "Just go go",
+      avatar     : '',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
 });
 </script>
 

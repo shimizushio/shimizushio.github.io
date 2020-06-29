@@ -172,13 +172,33 @@
     <div class="posts-collapse">
       <div class="collection-title">
         
-        <span class="collection-header">芜湖！! 目前共计 54 篇日志。 起飞！</span>
+        <span class="collection-header">芜湖！! 目前共计 55 篇日志。 起飞！</span>
       </div>
 
       
     <div class="collection-year">
       <span class="collection-header">2020</span>
     </div>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2020-02-23T00:00:00+08:00"
+              content="2020-02-23">
+          02-23
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/675ecc23/" itemprop="url">
+            <span itemprop="name">20200223</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
 
   <article itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -275,7 +295,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">54</span>
+          <span class="site-state-item-count">55</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -373,6 +393,34 @@
 
   
 
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : ,
+      notify     : ,
+      appId      : 'F5iRGL4pb3HjGBn4D0Sewu42-MdYXbMMI',
+      appKey     : 'hAEcpwsKs7dvOPcQltL2Gwpg',
+      placeholder: "Just go go",
+      avatar     : '',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>
