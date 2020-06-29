@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>testing</title>
-    <url>/84e47b91/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>博客正在调试中……</p>
-]]></content>
-  </entry>
-  <entry>
     <title>【翻译】USUM每日事件</title>
     <url>/808a5b77/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>原网址：</p>
@@ -56,12 +50,17 @@
     <url>/103d9070/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>因为是和博客本身相关的内容所以还是单独开一篇日志告知一下（。</p>
 <p>主站的主题也换成了和文字仓库一样的NexT。</p>
+<a id="more"></a>
+
 <p>本来考虑使用<a href="https://valine.js.org/" target="_blank" rel="noopener">Valine</a>评论系统的，也试用了一下，确实匿名能够留言的设定是我想要的功能。不过思索一番之后，我还是决定不使用Valine，继续使用Gitalk评论系统。</p>
 <p>Valine评论系统虽然拥有匿名留言的功能，但却会在评论的同时留下使用的浏览器和操作系统版本。我个人不太希望评论时留下这样的信息，但查找了一番却发现Valine本身似乎并不能关闭这个显示。</p>
 <p>考虑了一下之后我还是决定放弃Valine。</p>
 <p>如果真的有想要留言的朋友的话，注册一个Github账号应该也不是什么难事吧，毕竟这不是国内的某些无良网站，应该还是很容易的（只要记得注册时选到免费账号上就行）。</p>
 <p>也考虑过双评论系统，不过一来显得太过臃肿，二来好像双评论系统互相之间也无法兼容…虽然能够分成Gitalk/Valine的两块显示，但是Valine的标签里却什么都显示不出来。</p>
 <p>所以，评论系统还是维持现状了。</p>
+<h1 id="6-29-更新"><a href="#6-29-更新" class="headerlink" title="6-29 更新"></a>6-29 更新</h1><p>还是更换成Valine评论系统了。</p>
+<p>因为我发现了<a href="https://hjxlog.com/posts/20191203a1.html" target="_blank" rel="noopener">如何隐藏评论的浏览器和操作系统版本</a>。感谢！</p>
+<p>旧的Gitalk评论系统里的内容我会擅自使用当时留下评论的ID复刻一遍内容并标注时间。对不起！</p>
 ]]></content>
       <categories>
         <category>杂谈</category>
