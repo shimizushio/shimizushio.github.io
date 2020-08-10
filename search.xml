@@ -22,10 +22,10 @@
       </categories>
   </entry>
   <entry>
-    <title>【翻译】5.3版本 更新笔记【施工中】</title>
+    <title>【翻译】5.3版本 更新笔记</title>
     <url>/a222c2e0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://jp.finalfantasyxiv.com/lodestone/topics/detail/9dfc443a3d023e55f98d8b5fb2204fda35201a3f" target="_blank" rel="noopener">原网站</a></p>
-<p><u><strong>正式版施工中</strong></u></p>
+<p><u><strong>正式版施工完成（没翻的地方就是懒得翻了）</strong></u></p>
 <p>图片均直接引用官方原更新笔记中的图片链接，不做转存（有需要的话再说）</p>
 <a id="more"></a>
 
@@ -488,6 +488,9 @@
 <p>随着该修改、在大地图（含BA以外的优雷卡）上击杀野怪及完成理符任务将不会再获得精炼度、损失耐久度。</p>
 <h3 id="可以从道具检索可制作的物品"><a href="#可以从道具检索可制作的物品" class="headerlink" title="可以从道具检索可制作的物品"></a>可以从道具检索可制作的物品</h3><p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_41.png?1596786950" alt=""></p>
 <h3 id="追加制作练习"><a href="#追加制作练习" class="headerlink" title="追加制作练习"></a>追加制作练习</h3><p>可以不消耗材料与触媒尝试制作道具。</p>
+<ul>
+<li>随着制作练习系统的实装，之前的练习素材系统废止，商店也不再出售。</li>
+</ul>
 <h3 id="删除以下“能工巧匠”的技能"><a href="#删除以下“能工巧匠”的技能" class="headerlink" title="删除以下“能工巧匠”的技能"></a>删除以下“能工巧匠”的技能</h3><ul>
 <li>收藏品制作</li>
 </ul>
@@ -503,7 +506,7 @@
 </ul>
 <h3 id="罗薇娜商会的“收集品交易”窗口变更"><a href="#罗薇娜商会的“收集品交易”窗口变更" class="headerlink" title="罗薇娜商会的“收集品交易”窗口变更"></a>罗薇娜商会的“收集品交易”窗口变更</h3><ul>
 <li>修改了能工巧匠的缴纳列表。<ul>
-<li>伴随该修改，版本5.3之前的道具将不再能够缴纳收藏品。</li>
+<li>伴随该修改，版本5.3之前的道具全部将不再能够缴纳收藏品。已经制作的收藏品可以在摩杜纳 (X:22.3 Y:6.7) 的收藏品回收窗口进行回收。</li>
 </ul>
 </li>
 <li>收藏品的对象列表固定化，不再每天变更<ul>
@@ -516,6 +519,7 @@
 <p>变更后：发动时间：切换职业及切换地图的时候</p>
 <h3 id="追加新的采集点"><a href="#追加新的采集点" class="headerlink" title="追加新的采集点"></a>追加新的采集点</h3><h3 id="追加新的采集道具和鱼"><a href="#追加新的采集道具和鱼" class="headerlink" title="追加新的采集道具和鱼"></a>追加新的采集道具和鱼</h3><h3 id="修改采集特效的说明"><a href="#修改采集特效的说明" class="headerlink" title="修改采集特效的说明"></a>修改采集特效的说明</h3><p>变更前：鉴别力未满xxx→HQ率0%</p>
 <p>变更后：鉴别力达到xxx→可以获得HQ道具</p>
+<p><img src="https://img.finalfantasyxiv.com/t/be09de93d501995f197aa688525e6fc2ef9bb246_47.png?1597054136" alt=""></p>
 <p>※仅修改了说明，不修改实际的线</p>
 <h3 id="大洋垂钓调整"><a href="#大洋垂钓调整" class="headerlink" title="大洋垂钓调整"></a>大洋垂钓调整</h3><ul>
 <li>显示每条鱼的具体点数。<ul>
@@ -523,7 +527,32 @@
 </ul>
 </li>
 </ul>
+<p><img src="https://img.finalfantasyxiv.com/t/be09de93d501995f197aa688525e6fc2ef9bb246_48.png?1597054136" alt=""></p>
 <h3 id="垂钓调整"><a href="#垂钓调整" class="headerlink" title="垂钓调整"></a>垂钓调整</h3><p>部分垂钓笔记里的鱼显示具体的垂钓条件。</p>
+<h3 id="物品效果调整"><a href="#物品效果调整" class="headerlink" title="物品效果调整"></a>物品效果调整</h3><ul>
+<li>军用工程指南/军用生存指南<ul>
+<li>经验值获得量+50%→<strong>+150%（Lv40～效果减半）</strong></li>
+<li>额外经验上限：150000→<strong>500000</strong></li>
+<li>效果时间：180分钟→<strong>18小时</strong></li>
+</ul>
+</li>
+<li>军用工程指南：第二卷/军用生存指南：第二卷<ul>
+<li>经验值获得量+50%→<strong>+150%（Lv50～效果减半）</strong></li>
+<li>额外经验上限：300000→<strong>1000000</strong></li>
+<li>效果时间：180分钟→<strong>18小时</strong></li>
+</ul>
+</li>
+<li>商用工程指南/商用生存指南<ul>
+<li>效果时间：180分钟→<strong>18小时</strong></li>
+</ul>
+</li>
+<li>改订版工程指南/改订版生存指南<ul>
+<li>经验值获得量+100%→<strong>+150%（Lv80～效果减半）</strong></li>
+</ul>
+</li>
+</ul>
+<h3 id="分解系统变更"><a href="#分解系统变更" class="headerlink" title="分解系统变更"></a>分解系统变更</h3><p>等级上限：480→490</p>
+<p>新增连续分解系统，可以连续分解堆叠的物品。</p>
 <h3 id="新坐骑"><a href="#新坐骑" class="headerlink" title="新坐骑"></a>新坐骑</h3><p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_50.png?1596786950" alt=""></p>
 <h3 id="新鸟甲、新宠物"><a href="#新鸟甲、新宠物" class="headerlink" title="新鸟甲、新宠物"></a>新鸟甲、新宠物</h3><h1 id="系统相关"><a href="#系统相关" class="headerlink" title="系统相关"></a>系统相关</h1><h3 id="新成就、新称号"><a href="#新成就、新称号" class="headerlink" title="新成就、新称号"></a>新成就、新称号</h3><h3 id="雇员探险的碎晶、水晶获取量上升"><a href="#雇员探险的碎晶、水晶获取量上升" class="headerlink" title="雇员探险的碎晶、水晶获取量上升"></a>雇员探险的碎晶、水晶获取量上升</h3><h3 id="好友申请的存放数目由5→7"><a href="#好友申请的存放数目由5→7" class="headerlink" title="好友申请的存放数目由5→7"></a>好友申请的存放数目由5→7</h3><h3 id="处于跨服组队中也可以进行跨服移动了"><a href="#处于跨服组队中也可以进行跨服移动了" class="headerlink" title="处于跨服组队中也可以进行跨服移动了"></a>处于跨服组队中也可以进行跨服移动了</h3><h3 id="招募系统变更"><a href="#招募系统变更" class="headerlink" title="招募系统变更"></a>招募系统变更</h3><ul>
 <li>满足募集条件的情况下，可以在处于本服组队状态中直接全队加入招募</li>
@@ -536,11 +565,64 @@
 <h3 id="放弃任务投票追加“弃权”选项"><a href="#放弃任务投票追加“弃权”选项" class="headerlink" title="放弃任务投票追加“弃权”选项"></a>放弃任务投票追加“弃权”选项</h3><h3 id="目标信息、焦点目标信息中现在会优先显示自身赋予的buff-debuff"><a href="#目标信息、焦点目标信息中现在会优先显示自身赋予的buff-debuff" class="headerlink" title="目标信息、焦点目标信息中现在会优先显示自身赋予的buff/debuff"></a>目标信息、焦点目标信息中现在会优先显示自身赋予的buff/debuff</h3><p>不含自身的召唤物赋予的buff/debuff。</p>
 <h3 id="木人的仇恨现在可以随意重置了"><a href="#木人的仇恨现在可以随意重置了" class="headerlink" title="木人的仇恨现在可以随意重置了"></a>木人的仇恨现在可以随意重置了</h3><p>右键选择木人，选择“重置木人仇恨”选项即可重置木人仇恨。</p>
 <p>※不含木人讨伐战中的木人。</p>
+<h3 id="Group-Pose功能变更"><a href="#Group-Pose功能变更" class="headerlink" title="Group Pose功能变更"></a>Group Pose功能变更</h3><ul>
+<li>贴纸功能</li>
+</ul>
+<p><img src="https://img.finalfantasyxiv.com/t/be09de93d501995f197aa688525e6fc2ef9bb246_52.png?1597054136" alt=""></p>
+<ul>
+<li>唇膏功能</li>
+</ul>
+<p><img src="https://img.finalfantasyxiv.com/t/be09de93d501995f197aa688525e6fc2ef9bb246_54.png?1597054136" alt=""></p>
+<ul>
+<li>仅视线追随摄像机视角的功能</li>
+</ul>
+<p><img src="https://img.finalfantasyxiv.com/t/be09de93d501995f197aa688525e6fc2ef9bb246_55.png?1597054136" alt=""></p>
+<p>现在可以显示食用家具的动作了。</p>
 <h3 id="现在游玩基础包的账户追加“苍天的伊修加德”内容的游玩权利"><a href="#现在游玩基础包的账户追加“苍天的伊修加德”内容的游玩权利" class="headerlink" title="现在游玩基础包的账户追加“苍天的伊修加德”内容的游玩权利"></a>现在游玩基础包的账户追加“苍天的伊修加德”内容的游玩权利</h3><h3 id="免费试玩内容进行变更"><a href="#免费试玩内容进行变更" class="headerlink" title="免费试玩内容进行变更"></a>免费试玩内容进行变更</h3><ul>
 <li>等级上限：35→60</li>
 <li>游戏内容范围：至“苍天的伊修加德”（3.56）版本为止</li>
 <li>游戏标题变更</li>
 <li>深层迷宫“死者宫殿”的可游玩范围从B1～B10 → B1～B200</li>
+</ul>
+<h1 id="BUG修正"><a href="#BUG修正" class="headerlink" title="BUG修正"></a>BUG修正</h1><h2 id="修复了以下的BUG"><a href="#修复了以下的BUG" class="headerlink" title="修复了以下的BUG"></a>修复了以下的BUG</h2><p>（没有全部翻译，懒）</p>
+<ul>
+<li>位于刚古什的玩家无法被玩家搜索检索到</li>
+<li>刚古什在特定条件下无法显示影子</li>
+<li>主线任务“纯白誓约、漆黑密约”的任务战斗中，本应赋予操作角色的“疾跑”状态未能成功赋予</li>
+<li>主线任务“鲲沙族的野望”中，与位于鲲沙地窖的NPC“琳”反复对话时会变得无法操作。</li>
+<li>支线任务“博兹雅蒸发事变”的任务战斗中，特定条件下无法正确显示仇恨列表。</li>
+<li>支线任务“博兹雅蒸发事变”的任务战斗中，部分敌人和NPC的技能无法正确显示于战斗记录中。</li>
+<li>支线任务“博兹雅蒸发事变”的任务战斗中，部分敌人的技能特效无法正确显示。</li>
+<li>支线任务“博兹雅蒸发事变”的任务战斗中，在特定条件下使用指令“变更游戏内窗口大小”时，游戏内窗口显示的对话内容也会改变。</li>
+<li>维尔利特战役中可以确认的“解放军的将校的报告书”里记载的NPC“米利桑迪亚”的年龄不正确。<ul>
+<li>游戏中显示的文本是30岁，但正确的是20岁。</li>
+</ul>
+</li>
+<li>学者在“光之低语”状态中使用“夕月召唤”的话有时会减少“光之低语”的回复量。</li>
+<li>魔法宫殿宇宙宫的3BOSS在特定条件下解除“必灭之炎”debuff的物品的碰撞判定不正确。</li>
+<li>贤王莫古力讨伐战中，敌人使用的“死亡莫古警告”的伤害不正确。</li>
+<li>吉尔伽美什讨伐战、真吉尔伽美什讨伐战的场地封锁后外面的玩家无法传送进入战斗场地。</li>
+<li>极博兹雅追忆战中敌人使用的“魔导闪电”的效果音量过大。</li>
+<li>纷争前线及RW的战斗中，于团队聊天频道键入/dice的话，敌人也可以在聊天记录里看见骰子结果。</li>
+<li>高地龙堡的部分狩猎怪和FATE的出现地点重合。</li>
+<li>魔导书“山羊革魔导书DX”的属性错误。</li>
+<li>装备“史莱姆王皇冠”的时候，有时在吹强风的地区也不会晃动。</li>
+<li>家具“静语庄园的梳妆台”的贴图不正确。</li>
+<li>在部分家具上跳跃或移动时没有踩踏声。</li>
+<li>利姆萨·罗敏萨：下甲板层的部分地区不是水域却可以使用渔师的技能“抛竿”。</li>
+<li>维埃拉族的声音类型4中，情感动作“不满”与“惊讶”的声音装反了。</li>
+</ul>
+<h2 id="确认但尚未修正的BUG"><a href="#确认但尚未修正的BUG" class="headerlink" title="确认但尚未修正的BUG"></a>确认但尚未修正的BUG</h2><p>（没有全部翻译，懒）</p>
+<ul>
+<li>团队副本“人偶们的军事基地”里，如果全部的24人都从一个与前进方向不同的特定地点跳下的话，不会出现本应出现的该前进的道路。<ul>
+<li>发生本BUG时，仅需至少1人使用指令“返回”回到起点并进入正确的道路，就会出现前进的道路。</li>
+</ul>
+</li>
+<li>版本5.3新追加的部分素材缺失了“[能工巧匠用素材]”的说明文本。</li>
+<li>Group Pose的贴纸模式中、字体贴纸的可贴范围不正确。<ul>
+<li>正常情况下，即使字体贴纸的一半都到了画面外仍然应是可以贴的。</li>
+</ul>
+</li>
 </ul>
 ]]></content>
       <categories>
