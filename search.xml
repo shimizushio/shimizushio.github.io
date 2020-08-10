@@ -193,7 +193,7 @@
 </ul>
 <h3 id="武僧"><a href="#武僧" class="headerlink" title="武僧"></a>武僧</h3><ul>
 <li>震脚：复唱时间：120秒→<strong>90秒</strong></li>
-<li>演武：效果变更：“<strong>三之形的追加效果</strong>：将疾风迅雷的持续时间延长到最大”→“<strong>追加效果</strong>：将疾风迅雷的持续时间延长到最大”</li>
+<li>演武：效果变更：“<strong>猛豹形的追加效果</strong>：将疾风迅雷的持续时间延长到最大”→“<strong>追加效果</strong>：将疾风迅雷的持续时间延长到最大”</li>
 </ul>
 <h3 id="吟游诗人"><a href="#吟游诗人" class="headerlink" title="吟游诗人"></a>吟游诗人</h3><ul>
 <li>侧风诱导箭：2DoT时的威力：300→<strong>350</strong></li>
@@ -343,11 +343,66 @@
 </ul>
 </li>
 <li>爆发强袭、命运之环：删除“赋予自身乱射效果”。</li>
+<li>新技能：血壤<ul>
+<li>赋予目标弱化状态及自身强化状态。自身已经持有其中一种强化效果的时候，使用新强化效果将其覆盖。<ul>
+<li>目标为近战职业时：目标受到的伤害+10%，自身受到的伤害-10%</li>
+<li>目标为远程职业时：目标造成的伤害与回复效果-10%，自身造成的伤害与回复效果+10%</li>
+</ul>
+</li>
+<li>弱化状态持续10秒。</li>
+<li>强化状态持续60秒。</li>
+</ul>
+</li>
+<li>删除“光之心”技能。</li>
 </ul>
 <h3 id="武僧-1"><a href="#武僧-1" class="headerlink" title="武僧"></a>武僧</h3><ul>
-<li><h2 id="纷争前线"><a href="#纷争前线" class="headerlink" title="纷争前线"></a>纷争前线</h2></li>
+<li>金刚极意：护盾的效果量：2000→<strong>2500</strong></li>
+<li>斗魂旋风脚、阴阳斗气斩：威力：1800→<strong>2000</strong></li>
 </ul>
-<h3 id="等待时间由90秒变为45秒。"><a href="#等待时间由90秒变为45秒。" class="headerlink" title="等待时间由90秒变为45秒。"></a>等待时间由90秒变为45秒。</h3><h3 id="日替变更"><a href="#日替变更" class="headerlink" title="日替变更"></a>日替变更</h3><p>变更前：</p>
+<h3 id="武士"><a href="#武士" class="headerlink" title="武士"></a>武士</h3><ul>
+<li>必杀剑·地天：威力：1000→<strong>1200</strong></li>
+</ul>
+<h3 id="吟游诗人-1"><a href="#吟游诗人-1" class="headerlink" title="吟游诗人"></a>吟游诗人</h3><ul>
+<li>连珠箭：威力：600→<strong>800</strong></li>
+<li>九天连箭：威力：800→<strong>1000</strong></li>
+<li>后跃射击：威力：400→<strong>800</strong></li>
+</ul>
+<h3 id="机工士-1"><a href="#机工士-1" class="headerlink" title="机工士"></a>机工士</h3><ul>
+<li>散射：威力：600→<strong>800</strong></li>
+<li>自动弩弓：威力：1400→<strong>1600</strong></li>
+<li>弹射：威力：600→<strong>800</strong></li>
+<li>野火：伤害储存比率：25%→<strong>33%</strong></li>
+<li>毒菌爆发：威力：1400→<strong>1600</strong></li>
+<li>空包弹：威力：600→<strong>800</strong></li>
+<li>空气锚：威力：1600→<strong>2000</strong></li>
+</ul>
+<h3 id="黑魔法师"><a href="#黑魔法师" class="headerlink" title="黑魔法师"></a>黑魔法师</h3><ul>
+<li>火炎：MP消耗：0→<strong>1000</strong>；星极火的伤害提升：10%→<strong>20%</strong></li>
+<li>冰结：灵极冰的咏唱与复唱时间缩短10%→<strong>20%</strong></li>
+<li>炽炎：MP消耗：2500→<strong>2000</strong></li>
+<li>核爆：MP消耗：5000→<strong>4000</strong>；星极火的伤害提升：10%→<strong>20%</strong></li>
+<li>玄冰：灵极冰的咏唱与复唱时间缩短10%→<strong>20%</strong></li>
+<li>闪雷：咏唱时间：1.5秒→<strong>0</strong></li>
+<li>震雷：咏唱时间：1.5秒→<strong>0</strong></li>
+<li>异言：威力：3200→<strong>2400</strong></li>
+<li>秽浊：威力：2400→<strong>1800</strong>；咏唱时间：2.0秒→<strong>0</strong></li>
+<li>天语：赋予“通晓”所需的时间：30秒→<strong>15秒</strong></li>
+<li>夜翼：复唱时间：60秒→<strong>45秒</strong></li>
+</ul>
+<h3 id="召唤师-1"><a href="#召唤师-1" class="headerlink" title="召唤师"></a>召唤师</h3><ul>
+<li>迸发：咏唱时间：2秒→<strong>1.5秒</strong></li>
+<li>溃烂爆发：威力：800→<strong>1000</strong></li>
+<li>痛苦核爆：复唱时间：60秒→<strong>45秒</strong></li>
+</ul>
+<h3 id="学者-1"><a href="#学者-1" class="headerlink" title="学者"></a>学者</h3><ul>
+<li>蛊毒法：目标受到的回复减少20%→<strong>15%</strong></li>
+<li>转化：HP回复效果提升50%→<strong>40%</strong></li>
+</ul>
+<h3 id="占星术士-1"><a href="#占星术士-1" class="headerlink" title="占星术士"></a>占星术士</h3><ul>
+<li>焚灼：追加效果“目标的战技和魔法的咏唱与复唱时间增加10%”→“目标造成的伤害与回复效果减少10%”。</li>
+<li>占卜：复唱时间：90秒→60秒</li>
+</ul>
+<h2 id="纷争前线"><a href="#纷争前线" class="headerlink" title="纷争前线"></a>纷争前线</h2><h3 id="等待时间由90秒变为45秒。"><a href="#等待时间由90秒变为45秒。" class="headerlink" title="等待时间由90秒变为45秒。"></a>等待时间由90秒变为45秒。</h3><h3 id="日替变更"><a href="#日替变更" class="headerlink" title="日替变更"></a>日替变更</h3><p>变更前：</p>
 <ol>
 <li>外缘遗迹群/昂萨哈凯尔</li>
 <li>尘封秘岩/昂萨哈凯尔</li>
@@ -365,12 +420,34 @@
 <h2 id="RW"><a href="#RW" class="headerlink" title="RW"></a>RW</h2><h3 id="等待时间由90秒变为45秒。-1"><a href="#等待时间由90秒变为45秒。-1" class="headerlink" title="等待时间由90秒变为45秒。"></a>等待时间由90秒变为45秒。</h3><h3 id="限制时间由20分钟变为15分钟。"><a href="#限制时间由20分钟变为15分钟。" class="headerlink" title="限制时间由20分钟变为15分钟。"></a>限制时间由20分钟变为15分钟。</h3><p>一些详细的修改（不玩这个，看不懂）</p>
 <h1 id="物品相关"><a href="#物品相关" class="headerlink" title="物品相关"></a>物品相关</h1><h3 id="新道具"><a href="#新道具" class="headerlink" title="新道具"></a>新道具</h3><p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_33.png?1596786950" alt=""></p>
 <p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_34.png?1596786950" alt=""></p>
+<h3 id="删除了以下物品的制作配方"><a href="#删除了以下物品的制作配方" class="headerlink" title="删除了以下物品的制作配方"></a>删除了以下物品的制作配方</h3><ul>
+<li>各职业中名称带有“饿狼”的55品级装备的制作配方、炼金术士的“伊卡洛斯之翼”、“技力回复之羽”<ul>
+<li>该类物品可以在狼狱停船场使用PVP点数交换。</li>
+</ul>
+</li>
+<li>第二次复兴用练习作品</li>
+<li>第8卷的练习用品（两种）</li>
+</ul>
 <h3 id="480新式可以交换490新式RE"><a href="#480新式可以交换490新式RE" class="headerlink" title="480新式可以交换490新式RE"></a>480新式可以交换490新式RE</h3><h3 id="追加亚拉戈神典石兑换的综合商店"><a href="#追加亚拉戈神典石兑换的综合商店" class="headerlink" title="追加亚拉戈神典石兑换的综合商店"></a>追加亚拉戈神典石兑换的综合商店</h3><p>对应商店需要完成对应的x.0版本的主线任务后才会开放</p>
 <p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_35.png?1596786950" alt=""></p>
 <p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_36.png?1596786950" alt=""></p>
 <p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_37.png?1596786950" alt=""></p>
 <p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_38.png?1596786950" alt=""></p>
 <p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_39.png?1596786950" alt=""></p>
+<p>随着该项修改，亚拉戈神典石：诗学交换的装备进行以下变更。</p>
+<ul>
+<li>删除强化前的装备，只能交换到RE装备。</li>
+<li>删除强化用的素材。<ul>
+<li>同时删除部分只能用于交换强化用素材的物品。</li>
+</ul>
+</li>
+<li>银色陆行鸟羽毛交换可以获得的诗学装备全部变更为RE版。</li>
+<li>特职冒险录附带的诗学装备全部变更为RE版。</li>
+<li>在各个城市的遗失物管理人处可以将强化前的田园装备、斯卡艾瓦装备交换为RE版。<ul>
+<li>交换时每件装备需要消耗100诗学。</li>
+</ul>
+</li>
+</ul>
 <h3 id="追加新的制作素材商店"><a href="#追加新的制作素材商店" class="headerlink" title="追加新的制作素材商店"></a>追加新的制作素材商店</h3><ul>
 <li>田园郡 (X:5.9 Y:7.3) NPC“素材屋”</li>
 <li>神拳痕 (X:9.6 Y:11.8) NPC“素材屋”</li>
