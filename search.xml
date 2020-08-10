@@ -562,7 +562,10 @@
 <li>删除“优雷卡”分类，追加“特殊地图探索”分类</li>
 <li>变更部分UI</li>
 </ul>
-<h3 id="放弃任务投票追加“弃权”选项"><a href="#放弃任务投票追加“弃权”选项" class="headerlink" title="放弃任务投票追加“弃权”选项"></a>放弃任务投票追加“弃权”选项</h3><h3 id="目标信息、焦点目标信息中现在会优先显示自身赋予的buff-debuff"><a href="#目标信息、焦点目标信息中现在会优先显示自身赋予的buff-debuff" class="headerlink" title="目标信息、焦点目标信息中现在会优先显示自身赋予的buff/debuff"></a>目标信息、焦点目标信息中现在会优先显示自身赋予的buff/debuff</h3><p>不含自身的召唤物赋予的buff/debuff。</p>
+<h3 id="放弃任务投票追加“保留”选项"><a href="#放弃任务投票追加“保留”选项" class="headerlink" title="放弃任务投票追加“保留”选项"></a>放弃任务投票追加“保留”选项</h3><ul>
+<li>一开始写的弃权是理解错了，保留是先把窗口最小化一会儿再投票</li>
+</ul>
+<h3 id="目标信息、焦点目标信息中现在会优先显示自身赋予的buff-debuff"><a href="#目标信息、焦点目标信息中现在会优先显示自身赋予的buff-debuff" class="headerlink" title="目标信息、焦点目标信息中现在会优先显示自身赋予的buff/debuff"></a>目标信息、焦点目标信息中现在会优先显示自身赋予的buff/debuff</h3><p>不含自身的召唤物赋予的buff/debuff。</p>
 <h3 id="木人的仇恨现在可以随意重置了"><a href="#木人的仇恨现在可以随意重置了" class="headerlink" title="木人的仇恨现在可以随意重置了"></a>木人的仇恨现在可以随意重置了</h3><p>右键选择木人，选择“重置木人仇恨”选项即可重置木人仇恨。</p>
 <p>※不含木人讨伐战中的木人。</p>
 <h3 id="Group-Pose功能变更"><a href="#Group-Pose功能变更" class="headerlink" title="Group Pose功能变更"></a>Group Pose功能变更</h3><ul>
