@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#FFC0CB"><meta name="generator" content="Hexo 6.0.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#FFC0CB">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"shimizushio.github.io","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.10.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+  <meta name="description" content="原网站 正式版施工完成（没翻的地方就是懒得翻了） 图片均直接引用官方原更新笔记中的图片链接，不做转存（有需要的话再说）">
+<meta property="og:type" content="website">
+<meta property="og:title" content="【翻译】5.3版本 更新笔记">
+<meta property="og:url" content="https://shimizushio.github.io/a222c2e0/index.html">
+<meta property="og:site_name" content="Shio&#39;s Wonderland">
+<meta property="og:description" content="原网站 正式版施工完成（没翻的地方就是懒得翻了） 图片均直接引用官方原更新笔记中的图片链接，不做转存（有需要的话再说）">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_0.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_1.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_2.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_3.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_7.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_10.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_12.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_13.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_14.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_15.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_16.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_17.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_18.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_20.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_21.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_22.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_24.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_26.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_56.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_31.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_32.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_33.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_34.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_35.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_36.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_37.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_38.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_39.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_41.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/be09de93d501995f197aa688525e6fc2ef9bb246_47.png?1597054136">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/be09de93d501995f197aa688525e6fc2ef9bb246_48.png?1597054136">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_50.png?1596786950">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/be09de93d501995f197aa688525e6fc2ef9bb246_52.png?1597054136">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/be09de93d501995f197aa688525e6fc2ef9bb246_54.png?1597054136">
+<meta property="og:image" content="https://img.finalfantasyxiv.com/t/be09de93d501995f197aa688525e6fc2ef9bb246_55.png?1597054136">
+<meta property="article:published_time" content="2020-08-07T10:24:47.000Z">
+<meta property="article:modified_time" content="2020-08-10T12:42:00.000Z">
+<meta property="article:author" content="Shimizu Shio">
+<meta property="article:tag" content="FF14">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_0.png?1596786950">
+
+
+<link rel="canonical" href="https://shimizushio.github.io/a222c2e0/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://shimizushio.github.io/a222c2e0/","path":"a222c2e0/","title":"【翻译】5.3版本 更新笔记"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>【翻译】5.3版本 更新笔记 | Shio's Wonderland</title>
+  
+
+
+
+
+<link rel="dns-prefetch" href="https://versal-deploy-784rxqutl-shimizushio.vercel.app/">
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Shio's Wonderland</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">汐子的幻想世界</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-moji"><a href="/moji/" rel="section"><i class="fa fa-book-open fa-fw"></i>文字仓库</a></li>
+        <li class="menu-item menu-item-seventeen"><a href="/seventeen/" rel="section"><i class="fa fa-music fa-fw"></i>17企划</a></li>
+        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+        <li class="menu-item menu-item-friendlinks"><a href="/links/" rel="section"><i class="fa fa-paperclip fa-fw"></i>友链</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%86%85%E5%AE%B9%E7%9B%B8%E5%85%B3"><span class="nav-number">1.</span> <span class="nav-text">内容相关</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%BB%E5%8A%A1%E7%9B%B8%E5%85%B3"><span class="nav-number">1.1.</span> <span class="nav-text">任务相关</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E7%9A%84%E4%B8%BB%E7%BA%BF%E4%BB%BB%E5%8A%A1"><span class="nav-number">1.1.1.</span> <span class="nav-text">新的主线任务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E7%9A%84%E7%BC%96%E5%B9%B4%E5%8F%B2%E4%BB%BB%E5%8A%A1"><span class="nav-number">1.1.2.</span> <span class="nav-text">新的编年史任务</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AF%84%E5%8F%B6%E5%BC%82%E9%97%BB%EF%BC%9A%E6%9A%97%E9%BB%91%E5%A4%A9%E5%90%AF"><span class="nav-number">1.1.2.1.</span> <span class="nav-text">寄叶异闻：暗黑天启</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BB%B4%E5%B0%94%E5%88%A9%E7%89%B9%E6%88%98%E5%BD%B9%E7%9B%B8%E5%85%B3"><span class="nav-number">1.1.2.2.</span> <span class="nav-text">维尔利特战役相关</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A5%E4%B8%8B%E4%BB%BB%E5%8A%A1%E6%92%A4%E9%99%A4%E5%91%A8%E9%99%90%E5%88%B6"><span class="nav-number">1.1.3.</span> <span class="nav-text">以下任务撤除周限制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E7%9A%84%E6%94%AF%E7%BA%BF%E4%BB%BB%E5%8A%A1"><span class="nav-number">1.1.4.</span> <span class="nav-text">新的支线任务</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%80%81%E4%B8%BB%E9%A1%BE%E7%9B%B8%E5%85%B3"><span class="nav-number">1.1.4.1.</span> <span class="nav-text">老主顾相关</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%80%BB%E9%95%BF%E7%9A%84%E5%B9%BB%E6%83%B3%E7%9B%98"><span class="nav-number">1.1.4.2.</span> <span class="nav-text">总长的幻想盘</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%BD%E5%8A%A0%E6%96%B0%E7%9A%84%E8%9B%AE%E6%97%8F%E4%BB%BB%E5%8A%A1%E2%80%9C%E7%9F%AE%E4%BA%BA%E6%97%8F%E2%80%9D"><span class="nav-number">1.1.5.</span> <span class="nav-text">追加新的蛮族任务“矮人族”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%94%B9%E4%BF%AE%E4%B8%BB%E7%BA%BF%E4%BB%BB%E5%8A%A1%E2%80%9C%E6%96%B0%E7%94%9F%E7%9A%84%E8%89%BE%E6%AC%A7%E6%B3%BD%E4%BA%9A%E2%80%9D%E5%8F%8A%E2%80%9D%E7%AC%AC%E4%B8%83%E6%98%9F%E5%8E%86%E7%BC%96%E5%B9%B4%E5%8F%B2%E2%80%9C"><span class="nav-number">1.1.6.</span> <span class="nav-text">改修主线任务“新生的艾欧泽亚”及”第七星历编年史“</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BC%B4%E9%9A%8F%E6%94%B9%E4%BF%AE%E8%80%8C%E7%94%9F%E7%9A%84%E5%8F%98%E5%8C%96%E7%82%B9"><span class="nav-number">1.1.6.1.</span> <span class="nav-text">伴随改修而生的变化点</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9C%A85-3%E7%89%88%E6%9C%AC%E5%89%8D%E5%B7%B2%E7%BB%8F%E6%8E%A5%E5%8F%97%E4%BA%86%E5%B0%86%E8%A2%AB%E4%BF%AE%E6%94%B9%E7%9A%84%E4%BB%BB%E5%8A%A1"><span class="nav-number">1.1.6.2.</span> <span class="nav-text">在5.3版本前已经接受了将被修改的任务</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BC%B4%E9%9A%8F%E2%80%9C%E6%96%B0%E7%94%9F%E7%9A%84%E8%89%BE%E6%AC%A7%E6%B3%BD%E4%BA%9A%E2%80%9D%E5%8F%8A%E2%80%9D%E7%AC%AC%E4%B8%83%E6%98%9F%E5%8E%86%E7%BC%96%E5%B9%B4%E5%8F%B2%E2%80%9C%E7%9A%84%E6%94%B9%E4%BF%AE%EF%BC%8C%E4%B8%BB%E7%BA%BF%E4%BB%BB%E5%8A%A1%E7%9A%84%E6%8E%A5%E5%8F%96%E6%9D%A1%E4%BB%B6%E5%8F%98%E6%9B%B4"><span class="nav-number">1.1.7.</span> <span class="nav-text">伴随“新生的艾欧泽亚”及”第七星历编年史“的改修，主线任务的接取条件变更</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E7%94%9F%E5%9C%B0%E5%8C%BA%E9%A3%9E%E8%A1%8C%E5%9D%90%E9%AA%91"><span class="nav-number">1.1.8.</span> <span class="nav-text">新生地区飞行坐骑</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E5%BA%94%E6%96%B0%E7%94%9F%E5%9C%B0%E5%8C%BA%E7%9A%84%E9%A3%9E%E8%A1%8C%EF%BC%8C%E5%88%A0%E9%99%A4%E9%99%86%E8%A1%8C%E9%B8%9F%E9%A3%9E%E8%A1%8C%E7%9A%84%E8%A7%A3%E9%94%81%E4%BB%BB%E5%8A%A1%E2%80%9C%E6%88%91%E7%9A%84%E9%99%86%E8%A1%8C%E9%B8%9F%EF%BC%8C%E9%A3%9E%E5%90%91%E5%A4%A9%E7%A9%BA%E2%80%9D"><span class="nav-number">1.1.9.</span> <span class="nav-text">对应新生地区的飞行，删除陆行鸟飞行的解锁任务“我的陆行鸟，飞向天空”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9C%A8%E6%89%80%E6%9C%89%E7%9A%84%E5%9C%B0%E5%8C%BA%E8%BF%BD%E5%8A%A0%E4%BB%BB%E5%8A%A1%E7%9B%AE%E6%A0%87%E7%9A%84%E9%AB%98%E4%BD%8E%E5%B7%AE%E6%98%BE%E7%A4%BA"><span class="nav-number">1.1.10.</span> <span class="nav-text">在所有的地区追加任务目标的高低差显示</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%98%94%E6%97%A5%E9%87%8D%E7%8E%B0%E8%BF%BD%E5%8A%A0%E6%96%B0%E7%AB%A0%E8%8A%82"><span class="nav-number">1.1.11.</span> <span class="nav-text">昔日重现追加新章节</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%90%86%E7%AC%A6%E7%9B%B8%E5%85%B3"><span class="nav-number">1.2.</span> <span class="nav-text">理符相关</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AF%BB%E5%AE%9D%E7%9B%B8%E5%85%B3"><span class="nav-number">1.3.</span> <span class="nav-text">寻宝相关</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#G12%E8%BF%BD%E5%8A%A0%E6%96%B0%E6%8A%A5%E9%85%AC"><span class="nav-number">1.3.1.</span> <span class="nav-text">G12追加新报酬</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E2%80%9C%E6%A2%A6%E7%BE%BD%E5%AE%9D%E5%A2%83%E2%80%9D%E8%BF%9B%E8%A1%8C%E5%8F%98%E6%9B%B4"><span class="nav-number">1.3.2.</span> <span class="nav-text">“梦羽宝境”进行变更</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#GC-x2F-FC%E7%9B%B8%E5%85%B3"><span class="nav-number">1.4.</span> <span class="nav-text">GC&#x2F;FC相关</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%BD%E5%8A%A0%E6%96%B0%E7%9A%84%E9%83%A8%E9%98%9F%E5%90%88%E5%BB%BA%E9%A1%B9%E7%9B%AE"><span class="nav-number">1.4.1.</span> <span class="nav-text">追加新的部队合建项目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%BD%9C%E6%B0%B4%E8%89%87%E8%BF%9B%E8%A1%8C%E5%8F%98%E6%9B%B4"><span class="nav-number">1.4.2.</span> <span class="nav-text">潜水艇进行变更</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%84GC%E7%9A%84%E8%A1%A5%E7%BB%99%E6%8B%85%E5%BD%93%E5%AE%98%E9%87%8C%E8%BF%BD%E5%8A%A0%E6%96%B0%E7%9A%84%E5%8F%AF%E4%BA%A4%E6%8D%A2%E9%81%93%E5%85%B7"><span class="nav-number">1.4.3.</span> <span class="nav-text">各GC的补给担当官里追加新的可交换道具</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%8F%E5%AE%85%E5%8C%BA%E5%85%B3%E8%81%94"><span class="nav-number">1.5.</span> <span class="nav-text">住宅区关联</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9E%E8%A3%85%E5%AE%B6%E5%85%B7%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%E4%B8%AD%E7%9A%84%E8%8E%B7%E5%A5%96%E4%BD%9C%E5%93%81"><span class="nav-number">1.5.1.</span> <span class="nav-text">实装家具设计大赛中的获奖作品</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9E%E8%A3%85%E5%AE%B6%E5%85%B7"><span class="nav-number">1.5.2.</span> <span class="nav-text">实装家具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%81%87%E4%BA%BA%E7%9A%84%E5%8F%AF%E9%80%89%E7%A7%8D%E6%97%8F%E8%BF%BD%E5%8A%A0%E7%BB%B4%E5%9F%83%E6%8B%89%E6%97%8F%E3%80%81%E7%A1%8C%E7%8B%AE%E6%97%8F"><span class="nav-number">1.5.3.</span> <span class="nav-text">假人的可选种族追加维埃拉族、硌狮族</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E7%9A%84%E4%B9%90%E8%B0%B1"><span class="nav-number">1.5.4.</span> <span class="nav-text">新的乐谱</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%BD%E5%8A%A0%E6%B0%B4%E6%97%8F%E7%AE%B1%E5%8F%AF%E9%A5%B2%E5%85%BB%E7%9A%84%E9%B1%BC"><span class="nav-number">1.5.5.</span> <span class="nav-text">追加水族箱可饲养的鱼</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%BD%E5%8A%A0%E7%9B%86%E6%A0%BD%E9%87%8C%E5%8F%AF%E7%A7%8D%E7%9A%84%E6%96%B0%E7%A7%8D%E5%AD%90"><span class="nav-number">1.5.6.</span> <span class="nav-text">追加盆栽里可种的新种子</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%BD%E5%8A%A0%E7%94%B0%E9%87%8C%E5%8F%AF%E7%A7%8D%E7%9A%84%E6%96%B0%E7%A7%8D%E5%AD%90"><span class="nav-number">1.5.7.</span> <span class="nav-text">追加田里可种的新种子</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%87%91%E7%A2%9F%E6%B8%B8%E4%B9%90%E5%9C%BA%E7%9B%B8%E5%85%B3"><span class="nav-number">1.6.</span> <span class="nav-text">金碟游乐场相关</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%99%86%E8%A1%8C%E9%B8%9F%E8%B5%9B%E8%B7%91%E4%B8%8D%E5%86%8D%E6%98%BE%E7%A4%BA%E5%B9%B3%E5%9D%87%E7%AD%89%E5%BE%85%E6%97%B6%E9%97%B4"><span class="nav-number">1.6.1.</span> <span class="nav-text">陆行鸟赛跑不再显示平均等待时间</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B9%9D%E5%AE%AB%E5%B9%BB%E5%8D%A1"><span class="nav-number">1.6.2.</span> <span class="nav-text">九宫幻卡</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%9A%E7%8E%9B%E9%BA%BB%E5%B0%86"><span class="nav-number">1.6.3.</span> <span class="nav-text">多玛麻将</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B6%E4%BB%96"><span class="nav-number">1.7.</span> <span class="nav-text">其他</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E7%9A%84%E5%89%AF%E6%9C%AC%E2%80%9C%E8%97%8F%E4%BF%8F%E7%9A%84%E5%B9%BB%E6%83%B3%E7%9B%98%E2%80%9D"><span class="nav-number">1.7.1.</span> <span class="nav-text">新的副本“藏俏的幻想盘”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BA%93%E6%B4%9B%E7%9A%84%E7%A9%BA%E6%83%B3%E5%B8%90%E7%9A%84%E5%8F%98%E6%9B%B4"><span class="nav-number">1.7.2.</span> <span class="nav-text">库洛的空想帐的变更</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%94%BB%E7%95%A5%E7%AC%94%E8%AE%B0%E5%8F%98%E6%9B%B4"><span class="nav-number">1.7.3.</span> <span class="nav-text">攻略笔记变更</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E7%9A%84%E6%83%85%E6%84%9F%E5%8A%A8%E4%BD%9C"><span class="nav-number">1.7.4.</span> <span class="nav-text">新的情感动作</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%88%98%E6%96%97%E7%9B%B8%E5%85%B3"><span class="nav-number">2.</span> <span class="nav-text">战斗相关</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8A%80%E8%83%BD%E8%B0%83%E6%95%B4"><span class="nav-number">2.1.</span> <span class="nav-text">技能调整</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%98%E5%A3%AB"><span class="nav-number">2.1.1.</span> <span class="nav-text">战士</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%9D%E6%9E%AA%E6%88%98%E5%A3%AB"><span class="nav-number">2.1.2.</span> <span class="nav-text">绝枪战士</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AD%A6%E5%83%A7"><span class="nav-number">2.1.3.</span> <span class="nav-text">武僧</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA"><span class="nav-number">2.1.4.</span> <span class="nav-text">吟游诗人</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%BA%E5%B7%A5%E5%A3%AB"><span class="nav-number">2.1.5.</span> <span class="nav-text">机工士</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%AC%E5%94%A4%E5%B8%88"><span class="nav-number">2.1.6.</span> <span class="nav-text">召唤师</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%A6%E8%80%85"><span class="nav-number">2.1.7.</span> <span class="nav-text">学者</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%A0%E6%98%9F%E6%9C%AF%E5%A3%AB"><span class="nav-number">2.1.8.</span> <span class="nav-text">占星术士</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%83%A8%E5%88%86%E6%8A%80%E8%83%BD%E5%92%8C%E7%8A%B6%E6%80%81%E4%BF%AE%E6%94%B9%E4%BA%86%E8%AF%B4%E6%98%8E"><span class="nav-number">2.2.</span> <span class="nav-text">部分技能和状态修改了说明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%8E%E6%97%A0%E6%B3%95%E6%88%98%E6%96%97%E7%8A%B6%E6%80%81%E5%9B%9E%E5%A4%8D%E6%97%B6%E8%8E%B7%E5%BE%97%E7%9A%84%E6%97%A0%E6%95%8C%E6%97%B6%E9%97%B4%E5%B0%86%E7%94%A8%E2%80%9C%E7%94%9F%E8%BF%98%E2%80%9Dbuff%E8%A1%A8%E7%A4%BA%E5%9C%A8%E7%8A%B6%E6%80%81%E6%A0%8F"><span class="nav-number">2.3.</span> <span class="nav-text">从无法战斗状态回复时获得的无敌时间将用“生还”buff表示在状态栏</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9D%92%E9%AD%94%E6%B3%95%E4%B9%A6%E7%8E%B0%E5%9C%A8%E5%8F%AF%E4%BB%A5%E4%B8%BA%E6%8A%80%E8%83%BD%E7%BB%84%E5%90%88%E5%91%BD%E5%90%8D"><span class="nav-number">2.4.</span> <span class="nav-text">青魔法书现在可以为技能组合命名</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%AF%E6%9C%AC%E4%BF%AE%E6%94%B9"><span class="nav-number">2.5.</span> <span class="nav-text">副本修改</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E7%9A%844%E4%BA%BA%E5%89%AF%E6%9C%AC%E2%80%9C%E6%BC%86%E9%BB%91%E5%86%B3%E6%88%98-%E8%AF%BA%E5%BC%97%E5%85%B0%E7%89%B9%E2%80%9D"><span class="nav-number">2.5.1.</span> <span class="nav-text">新的4人副本“漆黑决战 诺弗兰特”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9D%E6%AC%A1%E9%80%9A%E5%85%B34%E4%BA%BA%E5%89%AF%E6%9C%AC%E6%97%B6%E4%BC%9A%E8%8E%B7%E5%BE%97%E8%BF%BD%E5%8A%A0%E7%9A%84%E7%BB%8F%E9%AA%8C%E5%80%BC"><span class="nav-number">2.5.2.</span> <span class="nav-text">初次通关4人副本时会获得追加的经验值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E2%80%9C%E9%9B%BE%E4%B8%AD%E8%A1%8C%E5%86%9B%E9%BB%84%E9%87%91%E8%B0%B7%E2%80%9D%E7%9A%84%E6%95%B0%E5%B8%81%E5%B7%A8%E4%BA%BA%E7%9A%84%E6%94%BB%E5%87%BB%E7%8E%B0%E5%9C%A8%E4%BC%9A%E6%98%BE%E7%A4%BA%E8%8C%83%E5%9B%B4"><span class="nav-number">2.5.3.</span> <span class="nav-text">“雾中行军黄金谷”的数币巨人的攻击现在会显示范围</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%8E%B0%E5%AD%98%E7%9A%844%E4%BA%BA%E5%89%AF%E6%9C%AC%E7%9A%84%E4%BF%AE%E6%94%B9"><span class="nav-number">2.5.4.</span> <span class="nav-text">现存的4人副本的修改</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E7%9A%84%E8%AE%A8%E4%BC%90%E6%88%98%E2%80%9C%EF%BC%9F%EF%BC%9F%EF%BC%9F%EF%BC%9F%EF%BC%9F%EF%BC%9F%EF%BC%9F%EF%BC%9F%E6%88%98%E2%80%9D"><span class="nav-number">2.5.5.</span> <span class="nav-text">新的讨伐战“？？？？？？？？战”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E7%9A%84%E8%AE%A8%E4%BC%90%E6%88%98%E2%80%9C%E6%9E%81%EF%BC%9F%EF%BC%9F%EF%BC%9F%EF%BC%9F%EF%BC%9F%EF%BC%9F%EF%BC%9F%EF%BC%9F%E6%88%98%E2%80%9D"><span class="nav-number">2.5.6.</span> <span class="nav-text">新的讨伐战“极？？？？？？？？战”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E7%9A%84%E8%AE%A8%E4%BC%90%E6%88%98%E2%80%9C%E5%B9%BB%E5%B8%8C%E7%93%A6%E8%AE%A8%E4%BC%90%E6%88%98%E2%80%9D"><span class="nav-number">2.5.7.</span> <span class="nav-text">新的讨伐战“幻希瓦讨伐战”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E2%80%9C%E6%9E%81%E5%93%88%E8%BF%AA%E6%96%AF%E8%AE%A8%E4%BC%90%E6%88%98%E2%80%9D%E7%9A%84%E9%AD%94%E7%AC%9B%E6%8E%89%E8%90%BD%E7%8E%87%E5%A2%9E%E5%8A%A0"><span class="nav-number">2.5.8.</span> <span class="nav-text">“极哈迪斯讨伐战”的魔笛掉落率增加</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%92%A4%E9%99%A4%E5%B8%8C%E6%9C%9B%E4%B9%8B%E5%9B%AD%E4%BC%8A%E7%94%B8%EF%BC%9A%E5%85%B1%E9%B8%A3%E7%AF%87%E5%A5%96%E5%8A%B1%E7%9A%84%E5%91%A8%E9%99%90%E5%88%B6%E3%80%82"><span class="nav-number">2.5.9.</span> <span class="nav-text">撤除希望之园伊甸：共鸣篇奖励的周限制。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E7%9A%84%E5%9B%A2%E9%98%9F%E5%89%AF%E6%9C%AC%E2%80%9C%E4%BA%BA%E5%81%B6%E4%BB%AC%E7%9A%84%E5%86%9B%E4%BA%8B%E5%9F%BA%E5%9C%B0%E2%80%9D"><span class="nav-number">2.5.10.</span> <span class="nav-text">新的团队副本“人偶们的军事基地”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A0%E9%99%A4%E2%80%9C%E5%A4%8D%E5%88%B6%E5%B7%A5%E5%8E%82%E5%BA%9F%E5%A2%9F%E2%80%9D%E7%9A%84%E9%80%9A%E5%85%B3%E6%8A%A5%E9%85%AC%E4%B8%AD%E7%9A%84%E2%80%9C%E6%83%B0%E6%80%A7%E6%98%9F%E5%BD%A2%E6%99%B6%E7%B0%87%E2%80%9D"><span class="nav-number">2.5.11.</span> <span class="nav-text">删除“复制工厂废墟”的通关报酬中的“惰性星形晶簇”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E2%80%9C%E5%8D%AB%E5%85%B5%E5%9B%A2%E7%9A%84%E5%BC%BA%E5%8C%96%E7%BA%A4%E7%BB%B4%E2%80%9D%E5%8F%8A%E2%80%9C%E5%8D%AB%E5%85%B5%E5%9B%A2%E7%9A%84%E7%A1%AC%E5%8C%96%E8%8D%AF%E2%80%9D%E5%A2%9E%E5%8A%A0%E8%8E%B7%E5%BE%97%E6%96%B9%E5%BC%8F"><span class="nav-number">2.5.12.</span> <span class="nav-text">“卫兵团的强化纤维”及“卫兵团的硬化药”增加获得方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A5%E4%B8%8B%E5%89%AF%E6%9C%AC%E8%BF%BD%E5%8A%A0%E2%80%9C%E8%B6%85%E8%B6%8A%E4%B9%8B%E5%8A%9B%E2%80%9D"><span class="nav-number">2.5.13.</span> <span class="nav-text">以下副本追加“超越之力”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E2%80%9C%E9%9A%8F%E6%9C%BA%E4%BB%BB%E5%8A%A1%EF%BC%9A%E9%AB%98%E9%9A%BE%E5%BA%A6%E2%80%9D%E5%89%AF%E6%9C%AC%E6%B1%A0%E5%8F%98%E6%9B%B4"><span class="nav-number">2.5.14.</span> <span class="nav-text">“随机任务：高难度”副本池变更</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E2%80%9C%E9%9A%8F%E6%9C%BA%E4%BB%BB%E5%8A%A1%EF%BC%9A80%E7%BA%A7%E2%80%9D%E5%89%AF%E6%9C%AC%E6%B1%A0%E5%8F%98%E6%9B%B4"><span class="nav-number">2.5.15.</span> <span class="nav-text">“随机任务：80级”副本池变更</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#PVP%E7%9B%B8%E5%85%B3"><span class="nav-number">3.</span> <span class="nav-text">PVP相关</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8A%80%E8%83%BD%E8%B0%83%E6%95%B4-1"><span class="nav-number">3.1.</span> <span class="nav-text">技能调整</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#TANK%E5%85%B1%E9%80%9A"><span class="nav-number">3.1.1.</span> <span class="nav-text">TANK共通</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%A9%E7%90%86%E8%BF%9C%E7%A8%8B%E5%85%B1%E9%80%9A"><span class="nav-number">3.1.2.</span> <span class="nav-text">物理远程共通</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%AD%94%E6%B3%95%E8%BF%9C%E7%A8%8B%E5%85%B1%E9%80%9A"><span class="nav-number">3.1.3.</span> <span class="nav-text">魔法远程共通</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B2%BB%E7%96%97%E5%85%B1%E9%80%9A"><span class="nav-number">3.1.4.</span> <span class="nav-text">治疗共通</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%AA%91%E5%A3%AB"><span class="nav-number">3.1.5.</span> <span class="nav-text">骑士</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%98%E5%A3%AB-1"><span class="nav-number">3.1.6.</span> <span class="nav-text">战士</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9A%97%E9%BB%91%E9%AA%91%E5%A3%AB"><span class="nav-number">3.1.7.</span> <span class="nav-text">暗黑骑士</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%9D%E6%9E%AA%E6%88%98%E5%A3%AB-1"><span class="nav-number">3.1.8.</span> <span class="nav-text">绝枪战士</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AD%A6%E5%83%A7-1"><span class="nav-number">3.1.9.</span> <span class="nav-text">武僧</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AD%A6%E5%A3%AB"><span class="nav-number">3.1.10.</span> <span class="nav-text">武士</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA-1"><span class="nav-number">3.1.11.</span> <span class="nav-text">吟游诗人</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%BA%E5%B7%A5%E5%A3%AB-1"><span class="nav-number">3.1.12.</span> <span class="nav-text">机工士</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%BB%91%E9%AD%94%E6%B3%95%E5%B8%88"><span class="nav-number">3.1.13.</span> <span class="nav-text">黑魔法师</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%AC%E5%94%A4%E5%B8%88-1"><span class="nav-number">3.1.14.</span> <span class="nav-text">召唤师</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%A6%E8%80%85-1"><span class="nav-number">3.1.15.</span> <span class="nav-text">学者</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%A0%E6%98%9F%E6%9C%AF%E5%A3%AB-1"><span class="nav-number">3.1.16.</span> <span class="nav-text">占星术士</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BA%B7%E4%BA%89%E5%89%8D%E7%BA%BF"><span class="nav-number">3.2.</span> <span class="nav-text">纷争前线</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AD%89%E5%BE%85%E6%97%B6%E9%97%B4%E7%94%B190%E7%A7%92%E5%8F%98%E4%B8%BA45%E7%A7%92%E3%80%82"><span class="nav-number">3.2.1.</span> <span class="nav-text">等待时间由90秒变为45秒。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#TANK%E4%B8%8E%E8%BF%91%E6%88%98DPS%E7%9A%84%E4%BC%A4%E5%AE%B3%E8%A1%A5%E6%AD%A3%E7%94%B1-15-%E2%86%92-10"><span class="nav-number">3.2.2.</span> <span class="nav-text">TANK与近战DPS的伤害补正由+15%→+10%</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%BE%99%E9%AA%91%E5%A3%AB%E4%B8%8E%E5%BF%8D%E8%80%85%E7%9A%84%E5%8F%97%E4%BC%A4%E8%A1%A5%E6%AD%A3%E7%94%B1-30-%E2%86%92-25"><span class="nav-number">3.2.3.</span> <span class="nav-text">龙骑士与忍者的受伤补正由-30%→-25%</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B5%A4%E9%AD%94%E6%B3%95%E5%B8%88%E7%9A%84%E5%8F%97%E4%BC%A4%E8%A1%A5%E6%AD%A3%E7%94%B10%E2%86%92-20"><span class="nav-number">3.2.4.</span> <span class="nav-text">赤魔法师的受伤补正由0→-20%</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A5%E6%9B%BF%E5%8F%98%E6%9B%B4"><span class="nav-number">3.2.5.</span> <span class="nav-text">日替变更</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#RW"><span class="nav-number">3.3.</span> <span class="nav-text">RW</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AD%89%E5%BE%85%E6%97%B6%E9%97%B4%E7%94%B190%E7%A7%92%E5%8F%98%E4%B8%BA45%E7%A7%92%E3%80%82-1"><span class="nav-number">3.3.1.</span> <span class="nav-text">等待时间由90秒变为45秒。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#TANK%E4%B8%8E%E8%BF%91%E6%88%98DPS%E7%9A%84%E4%BC%A4%E5%AE%B3%E8%A1%A5%E6%AD%A3%E7%94%B1-10-%E2%86%920"><span class="nav-number">3.3.2.</span> <span class="nav-text">TANK与近战DPS的伤害补正由+10%→0%</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%BE%99%E9%AA%91%E5%A3%AB%E4%B8%8E%E5%BF%8D%E8%80%85%E7%9A%84%E5%8F%97%E4%BC%A4%E8%A1%A5%E6%AD%A3%E7%94%B1-20-%E2%86%92-15"><span class="nav-number">3.3.3.</span> <span class="nav-text">龙骑士与忍者的受伤补正由-20%→-15%</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B5%A4%E9%AD%94%E6%B3%95%E5%B8%88%E7%9A%84%E5%8F%97%E4%BC%A4%E8%A1%A5%E6%AD%A3%E7%94%B10%E2%86%92-10"><span class="nav-number">3.3.4.</span> <span class="nav-text">赤魔法师的受伤补正由0→-10%</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%99%90%E5%88%B6%E6%97%B6%E9%97%B4%E7%94%B120%E5%88%86%E9%92%9F%E5%8F%98%E4%B8%BA15%E5%88%86%E9%92%9F%E3%80%82"><span class="nav-number">3.3.5.</span> <span class="nav-text">限制时间由20分钟变为15分钟。</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%89%A9%E5%93%81%E7%9B%B8%E5%85%B3"><span class="nav-number">4.</span> <span class="nav-text">物品相关</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E9%81%93%E5%85%B7"><span class="nav-number">4.0.1.</span> <span class="nav-text">新道具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A0%E9%99%A4%E4%BA%86%E4%BB%A5%E4%B8%8B%E7%89%A9%E5%93%81%E7%9A%84%E5%88%B6%E4%BD%9C%E9%85%8D%E6%96%B9"><span class="nav-number">4.0.2.</span> <span class="nav-text">删除了以下物品的制作配方</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#480%E6%96%B0%E5%BC%8F%E5%8F%AF%E4%BB%A5%E4%BA%A4%E6%8D%A2490%E6%96%B0%E5%BC%8FRE"><span class="nav-number">4.0.3.</span> <span class="nav-text">480新式可以交换490新式RE</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%BD%E5%8A%A0%E4%BA%9A%E6%8B%89%E6%88%88%E7%A5%9E%E5%85%B8%E7%9F%B3%E5%85%91%E6%8D%A2%E7%9A%84%E7%BB%BC%E5%90%88%E5%95%86%E5%BA%97"><span class="nav-number">4.0.4.</span> <span class="nav-text">追加亚拉戈神典石兑换的综合商店</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%BD%E5%8A%A0%E6%96%B0%E7%9A%84%E5%88%B6%E4%BD%9C%E7%B4%A0%E6%9D%90%E5%95%86%E5%BA%97"><span class="nav-number">4.0.5.</span> <span class="nav-text">追加新的制作素材商店</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E6%95%B4%E7%90%86%E6%8C%87%E4%BB%A4%E7%9A%84%E6%8E%92%E5%BA%8F%E7%BB%93%E6%9E%9C"><span class="nav-number">4.0.6.</span> <span class="nav-text">修改整理指令的排序结果</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E9%83%A8%E5%88%86%E9%81%93%E5%85%B7%E7%9A%84%E5%8D%96%E5%BA%97%E4%BB%B7%E6%A0%BC"><span class="nav-number">4.0.7.</span> <span class="nav-text">修改部分道具的卖店价格</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%83%A8%E5%88%86%E9%81%93%E5%85%B7%E8%A7%A3%E9%94%81%E5%8D%96%E5%BA%97%E3%80%81%E5%88%86%E8%A7%A3%E3%80%81%E4%BA%A4%E5%86%9B%E7%A5%A8"><span class="nav-number">4.0.8.</span> <span class="nav-text">部分道具解锁卖店、分解、交军票</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ZW%E3%80%81AW%E3%80%81EW%E7%9A%84%E5%A4%8D%E5%88%B6%E5%93%81%E7%9A%84%E8%A3%85%E5%A4%87%E5%93%81%E7%BA%A7%E4%BF%AE%E6%94%B9%E4%B8%BA1"><span class="nav-number">4.0.9.</span> <span class="nav-text">ZW、AW、EW的复制品的装备品级修改为1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%98%E6%96%97%E4%B8%AD%E5%87%8F%E5%B0%91%E8%A3%85%E5%A4%87%E8%80%90%E4%B9%85%E5%BA%A6%E7%9A%84%E6%97%B6%E9%97%B4%E7%82%B9%E5%8F%98%E6%9B%B4"><span class="nav-number">4.0.10.</span> <span class="nav-text">战斗中减少装备耐久度的时间点变更</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%AF%E4%BB%A5%E4%BB%8E%E9%81%93%E5%85%B7%E6%A3%80%E7%B4%A2%E5%8F%AF%E5%88%B6%E4%BD%9C%E7%9A%84%E7%89%A9%E5%93%81"><span class="nav-number">4.0.11.</span> <span class="nav-text">可以从道具检索可制作的物品</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%BD%E5%8A%A0%E5%88%B6%E4%BD%9C%E7%BB%83%E4%B9%A0"><span class="nav-number">4.0.12.</span> <span class="nav-text">追加制作练习</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A0%E9%99%A4%E4%BB%A5%E4%B8%8B%E2%80%9C%E8%83%BD%E5%B7%A5%E5%B7%A7%E5%8C%A0%E2%80%9D%E7%9A%84%E6%8A%80%E8%83%BD"><span class="nav-number">4.0.13.</span> <span class="nav-text">删除以下“能工巧匠”的技能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%BD%E5%8A%A0%E6%96%B0%E7%9A%84%E2%80%9C%E8%83%BD%E5%B7%A5%E5%B7%A7%E5%8C%A0%E2%80%9D%E7%9A%84%E7%89%B9%E6%80%A7"><span class="nav-number">4.0.14.</span> <span class="nav-text">追加新的“能工巧匠”的特性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%B6%E4%BD%9C%E7%AA%97%E5%8F%A3%E8%BF%9B%E8%A1%8C%E5%8F%98%E6%9B%B4"><span class="nav-number">4.0.15.</span> <span class="nav-text">制作窗口进行变更</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A2%9E%E5%8A%A0%E6%96%B0%E7%9A%84%E8%80%81%E4%B8%BB%E9%A1%BE%EF%BC%9A%E8%89%BE%E5%B0%94%C2%B7%E6%9D%9C"><span class="nav-number">4.0.16.</span> <span class="nav-text">增加新的老主顾：艾尔·杜</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BD%97%E8%96%87%E5%A8%9C%E5%95%86%E4%BC%9A%E7%9A%84%E2%80%9C%E6%94%B6%E9%9B%86%E5%93%81%E4%BA%A4%E6%98%93%E2%80%9D%E7%AA%97%E5%8F%A3%E5%8F%98%E6%9B%B4"><span class="nav-number">4.0.17.</span> <span class="nav-text">罗薇娜商会的“收集品交易”窗口变更</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%82%BC%E9%87%91%E6%9C%AF%E5%A3%AB%E7%9A%84%E5%A4%B4%E8%8A%B1%E7%B3%BB%E5%88%97%E9%85%8D%E6%96%B9%E4%BF%AE%E6%94%B9"><span class="nav-number">4.0.18.</span> <span class="nav-text">炼金术士的头花系列配方修改</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E2%80%9C%E5%A4%A7%E5%9C%B0%E4%BD%BF%E8%80%85%E2%80%9D%E7%9A%84%E7%89%B9%E6%80%A7%E2%80%9C%E9%9A%90%E5%8C%BF%E2%80%9D%E7%9A%84%E6%95%88%E6%9E%9C%E8%B0%83%E6%95%B4"><span class="nav-number">4.0.19.</span> <span class="nav-text">“大地使者”的特性“隐匿”的效果调整</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%BD%E5%8A%A0%E6%96%B0%E7%9A%84%E9%87%87%E9%9B%86%E7%82%B9"><span class="nav-number">4.0.20.</span> <span class="nav-text">追加新的采集点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%BD%E5%8A%A0%E6%96%B0%E7%9A%84%E9%87%87%E9%9B%86%E9%81%93%E5%85%B7%E5%92%8C%E9%B1%BC"><span class="nav-number">4.0.21.</span> <span class="nav-text">追加新的采集道具和鱼</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E9%87%87%E9%9B%86%E7%89%B9%E6%95%88%E7%9A%84%E8%AF%B4%E6%98%8E"><span class="nav-number">4.0.22.</span> <span class="nav-text">修改采集特效的说明</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%A7%E6%B4%8B%E5%9E%82%E9%92%93%E8%B0%83%E6%95%B4"><span class="nav-number">4.0.23.</span> <span class="nav-text">大洋垂钓调整</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9E%82%E9%92%93%E8%B0%83%E6%95%B4"><span class="nav-number">4.0.24.</span> <span class="nav-text">垂钓调整</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%A9%E5%93%81%E6%95%88%E6%9E%9C%E8%B0%83%E6%95%B4"><span class="nav-number">4.0.25.</span> <span class="nav-text">物品效果调整</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%86%E8%A7%A3%E7%B3%BB%E7%BB%9F%E5%8F%98%E6%9B%B4"><span class="nav-number">4.0.26.</span> <span class="nav-text">分解系统变更</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E5%9D%90%E9%AA%91"><span class="nav-number">4.0.27.</span> <span class="nav-text">新坐骑</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E9%B8%9F%E7%94%B2%E3%80%81%E6%96%B0%E5%AE%A0%E7%89%A9"><span class="nav-number">4.0.28.</span> <span class="nav-text">新鸟甲、新宠物</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%B3%BB%E7%BB%9F%E7%9B%B8%E5%85%B3"><span class="nav-number">5.</span> <span class="nav-text">系统相关</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E6%88%90%E5%B0%B1%E3%80%81%E6%96%B0%E7%A7%B0%E5%8F%B7"><span class="nav-number">5.0.1.</span> <span class="nav-text">新成就、新称号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9B%87%E5%91%98%E6%8E%A2%E9%99%A9%E7%9A%84%E7%A2%8E%E6%99%B6%E3%80%81%E6%B0%B4%E6%99%B6%E8%8E%B7%E5%8F%96%E9%87%8F%E4%B8%8A%E5%8D%87"><span class="nav-number">5.0.2.</span> <span class="nav-text">雇员探险的碎晶、水晶获取量上升</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AF%8F%E6%97%A5%E5%8F%AF%E4%BB%A5%E5%A5%BD%E5%8F%8B%E7%94%B3%E8%AF%B7%E7%9A%84%E4%BA%BA%E6%95%B0%E7%94%B15%E2%86%927"><span class="nav-number">5.0.3.</span> <span class="nav-text">每日可以好友申请的人数由5→7</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%84%E4%BA%8E%E8%B7%A8%E6%9C%8D%E7%BB%84%E9%98%9F%E4%B8%AD%E4%B9%9F%E5%8F%AF%E4%BB%A5%E8%BF%9B%E8%A1%8C%E8%B7%A8%E6%9C%8D%E7%A7%BB%E5%8A%A8%E4%BA%86"><span class="nav-number">5.0.4.</span> <span class="nav-text">处于跨服组队中也可以进行跨服移动了</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8B%9B%E5%8B%9F%E7%B3%BB%E7%BB%9F%E5%8F%98%E6%9B%B4"><span class="nav-number">5.0.5.</span> <span class="nav-text">招募系统变更</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%94%BE%E5%BC%83%E4%BB%BB%E5%8A%A1%E6%8A%95%E7%A5%A8%E8%BF%BD%E5%8A%A0%E2%80%9C%E4%BF%9D%E7%95%99%E2%80%9D%E9%80%89%E9%A1%B9"><span class="nav-number">5.0.6.</span> <span class="nav-text">放弃任务投票追加“保留”选项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%AE%E6%A0%87%E4%BF%A1%E6%81%AF%E3%80%81%E7%84%A6%E7%82%B9%E7%9B%AE%E6%A0%87%E4%BF%A1%E6%81%AF%E4%B8%AD%E7%8E%B0%E5%9C%A8%E4%BC%9A%E4%BC%98%E5%85%88%E6%98%BE%E7%A4%BA%E8%87%AA%E8%BA%AB%E8%B5%8B%E4%BA%88%E7%9A%84buff-x2F-debuff"><span class="nav-number">5.0.7.</span> <span class="nav-text">目标信息、焦点目标信息中现在会优先显示自身赋予的buff&#x2F;debuff</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%A8%E4%BA%BA%E7%9A%84%E4%BB%87%E6%81%A8%E7%8E%B0%E5%9C%A8%E5%8F%AF%E4%BB%A5%E9%9A%8F%E6%84%8F%E9%87%8D%E7%BD%AE%E4%BA%86"><span class="nav-number">5.0.8.</span> <span class="nav-text">木人的仇恨现在可以随意重置了</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Group-Pose%E5%8A%9F%E8%83%BD%E5%8F%98%E6%9B%B4"><span class="nav-number">5.0.9.</span> <span class="nav-text">Group Pose功能变更</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%8E%B0%E5%9C%A8%E6%B8%B8%E7%8E%A9%E5%9F%BA%E7%A1%80%E5%8C%85%E7%9A%84%E8%B4%A6%E6%88%B7%E8%BF%BD%E5%8A%A0%E2%80%9C%E8%8B%8D%E5%A4%A9%E7%9A%84%E4%BC%8A%E4%BF%AE%E5%8A%A0%E5%BE%B7%E2%80%9D%E5%86%85%E5%AE%B9%E7%9A%84%E6%B8%B8%E7%8E%A9%E6%9D%83%E5%88%A9"><span class="nav-number">5.0.10.</span> <span class="nav-text">现在游玩基础包的账户追加“苍天的伊修加德”内容的游玩权利</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%8D%E8%B4%B9%E8%AF%95%E7%8E%A9%E5%86%85%E5%AE%B9%E8%BF%9B%E8%A1%8C%E5%8F%98%E6%9B%B4"><span class="nav-number">5.0.11.</span> <span class="nav-text">免费试玩内容进行变更</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#BUG%E4%BF%AE%E6%AD%A3"><span class="nav-number">6.</span> <span class="nav-text">BUG修正</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BF%AE%E5%A4%8D%E4%BA%86%E4%BB%A5%E4%B8%8B%E7%9A%84BUG"><span class="nav-number">6.1.</span> <span class="nav-text">修复了以下的BUG</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A1%AE%E8%AE%A4%E4%BD%86%E5%B0%9A%E6%9C%AA%E4%BF%AE%E6%AD%A3%E7%9A%84BUG"><span class="nav-number">6.2.</span> <span class="nav-text">确认但尚未修正的BUG</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Shimizu Shio"
+      src="/images/ichinose.jpg">
+  <p class="site-author-name" itemprop="name">Shimizu Shio</p>
+  <div class="site-description" itemprop="description">Shio's Wonderland</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">68</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">11</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://shimizushio.github.io/a222c2e0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/ichinose.jpg">
+      <meta itemprop="name" content="Shimizu Shio">
+      <meta itemprop="description" content="Shio's Wonderland">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Shio's Wonderland">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          【翻译】5.3版本 更新笔记
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2020-08-07 18:24:47" itemprop="dateCreated datePublished" datetime="2020-08-07T18:24:47+08:00">2020-08-07</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2020-08-10 20:42:00" itemprop="dateModified" datetime="2020-08-10T20:42:00+08:00">2020-08-10</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%BF%BB%E8%AF%91/" itemprop="url" rel="index"><span itemprop="name">翻译</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Waline：</span>
+  
+    <a title="waline" href="/a222c2e0/#waline-comments" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" id="/a222c2e0/" data-xid="/a222c2e0/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p><a target="_blank" rel="noopener" href="https://jp.finalfantasyxiv.com/lodestone/topics/detail/9dfc443a3d023e55f98d8b5fb2204fda35201a3f">原网站</a></p>
+<p><u><strong>正式版施工完成（没翻的地方就是懒得翻了）</strong></u></p>
+<p>图片均直接引用官方原更新笔记中的图片链接，不做转存（有需要的话再说）</p>
+<span id="more"></span>
+
+<h1 id="内容相关"><a href="#内容相关" class="headerlink" title="内容相关"></a>内容相关</h1><h2 id="任务相关"><a href="#任务相关" class="headerlink" title="任务相关"></a>任务相关</h2><h3 id="新的主线任务"><a href="#新的主线任务" class="headerlink" title="新的主线任务"></a>新的主线任务</h3><p>新的主线任务：光之战士的故事</p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_0.png?1596786950"></p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_1.png?1596786950"></p>
+<ul>
+<li>需要完成主线任务“追忆的凶星”</li>
+</ul>
+<p>由于后述的“新生的艾欧泽亚”及“第七星历编年史”的改修，以下的任务也变为必须：</p>
+<ul>
+<li>支线任务“我的陆行鸟（双蛇党）”“我的陆行鸟（黑涡团）”“我的陆行鸟（恒辉队）”其中之一</li>
+<li>编年史任务：水晶塔“闪耀的希望”</li>
+</ul>
+<p>共计11个新任务</p>
+<h3 id="新的编年史任务"><a href="#新的编年史任务" class="headerlink" title="新的编年史任务"></a>新的编年史任务</h3><h4 id="寄叶异闻：暗黑天启"><a href="#寄叶异闻：暗黑天启" class="headerlink" title="寄叶异闻：暗黑天启"></a>寄叶异闻：暗黑天启</h4><p>新的任务：寇梅拉村的祭奠</p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_2.png?1596786950"></p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_3.png?1596786950"></p>
+<p>需要完成编年史任务“阿诺古的激进计划”</p>
+<p>共计3个新任务</p>
+<h4 id="维尔利特战役相关"><a href="#维尔利特战役相关" class="headerlink" title="维尔利特战役相关"></a>维尔利特战役相关</h4><p>新的任务：飞翔吧！前往维尔利特</p>
+<p>需要完成编年史任务“神兵袭来”</p>
+<h3 id="以下任务撤除周限制"><a href="#以下任务撤除周限制" class="headerlink" title="以下任务撤除周限制"></a>以下任务撤除周限制</h3><ul>
+<li>大魔导师的祝福</li>
+<li>登峰造极的蛮神们</li>
+<li>远古的鼓动</li>
+</ul>
+<h3 id="新的支线任务"><a href="#新的支线任务" class="headerlink" title="新的支线任务"></a>新的支线任务</h3><h4 id="老主顾相关"><a href="#老主顾相关" class="headerlink" title="老主顾相关"></a>老主顾相关</h4><p>新的支线任务：老主顾艾尔·杜</p>
+<p>需要完成支线任务“纺织新龙诗之翼”“工匠，前往新世界”</p>
+<p>及其后续：“龙与人的一步”“成为你的翅膀”</p>
+<h4 id="总长的幻想盘"><a href="#总长的幻想盘" class="headerlink" title="总长的幻想盘"></a>总长的幻想盘</h4><p>新的支线任务：某只妖狐的幻想盘</p>
+<p>需要完成支线任务“某位少女的空想帐”、主线任务“漆黑的反叛者”</p>
+<h3 id="追加新的蛮族任务“矮人族”"><a href="#追加新的蛮族任务“矮人族”" class="headerlink" title="追加新的蛮族任务“矮人族”"></a>追加新的蛮族任务“矮人族”</h3><p>存在等级限制【接取职业限制】</p>
+<p>需要完成支线任务“壮汉罗尼特，拯救工匠村！”</p>
+<p>※支线任务“壮汉罗尼特，拯救工匠村！”是由支线任务“惨剧之村”及支线任务“矮人族的不良青年”后续解锁的支线任务。</p>
+<p>蛮族集落位于雷克兰德。</p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_7.png?1596786950"></p>
+<h3 id="改修主线任务“新生的艾欧泽亚”及”第七星历编年史“"><a href="#改修主线任务“新生的艾欧泽亚”及”第七星历编年史“" class="headerlink" title="改修主线任务“新生的艾欧泽亚”及”第七星历编年史“"></a>改修主线任务“新生的艾欧泽亚”及”第七星历编年史“</h3><p>为了能让新玩家更顺畅地进行游戏，一些任务将被进行修改或删除。</p>
+<p>故事的大体流程不会变更。</p>
+<h4 id="伴随改修而生的变化点"><a href="#伴随改修而生的变化点" class="headerlink" title="伴随改修而生的变化点"></a>伴随改修而生的变化点</h4><p>随着改修，部分任务将不再能够接取和推进进度。这些任务在已完成任务记录中也会不再显示。</p>
+<p>另外，大幅变更了主线任务及支线任务的奖励。</p>
+<h4 id="在5-3版本前已经接受了将被修改的任务"><a href="#在5-3版本前已经接受了将被修改的任务" class="headerlink" title="在5.3版本前已经接受了将被修改的任务"></a>在5.3版本前已经接受了将被修改的任务</h4><p>这类任务会在目标列表以及任务详细信息中提示接下来该接取的主线任务的信息。需要先放弃现在的主线任务，然后接取新的主线任务。</p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_10.png?1596786950"></p>
+<p>伴随改修，部分支线任务在特定的时期接取的话也会无法推进。请先放弃这些任务，然后重新接取。</p>
+<ul>
+<li>支线任务“黄沙之光”（在版本4.0之前接取的情况下）</li>
+<li>编年史任务“古代亚拉戈文明的遗产”（在版本4.4之前接取的情况下）</li>
+</ul>
+<h3 id="伴随“新生的艾欧泽亚”及”第七星历编年史“的改修，主线任务的接取条件变更"><a href="#伴随“新生的艾欧泽亚”及”第七星历编年史“的改修，主线任务的接取条件变更" class="headerlink" title="伴随“新生的艾欧泽亚”及”第七星历编年史“的改修，主线任务的接取条件变更"></a>伴随“新生的艾欧泽亚”及”第七星历编年史“的改修，主线任务的接取条件变更</h3><p>主线任务“十二贤者的前进”</p>
+<ul>
+<li>追加接取条件：完成支线任务“我的陆行鸟（双蛇党）”“我的陆行鸟（黑涡团）”“我的陆行鸟（恒辉队）”其中之一</li>
+</ul>
+<p>主线任务“庆功会为谁而开”</p>
+<ul>
+<li>追加接取条件：完成编年史任务：水晶塔“闪耀的希望”</li>
+</ul>
+<p>主线任务“飞翔吧，企业精进号”</p>
+<ul>
+<li>追加接取条件：完成支线任务“我的陆行鸟（双蛇党）”“我的陆行鸟（黑涡团）”“我的陆行鸟（恒辉队）”其中之一</li>
+</ul>
+<h3 id="新生地区飞行坐骑"><a href="#新生地区飞行坐骑" class="headerlink" title="新生地区飞行坐骑"></a>新生地区飞行坐骑</h3><p>完成主线任务“超越幻想，究极神兵”即可飞行。</p>
+<p>※登入后已经位于新生地区的玩家需要切换一次地图才可飞行。</p>
+<h3 id="对应新生地区的飞行，删除陆行鸟飞行的解锁任务“我的陆行鸟，飞向天空”"><a href="#对应新生地区的飞行，删除陆行鸟飞行的解锁任务“我的陆行鸟，飞向天空”" class="headerlink" title="对应新生地区的飞行，删除陆行鸟飞行的解锁任务“我的陆行鸟，飞向天空”"></a>对应新生地区的飞行，删除陆行鸟飞行的解锁任务“我的陆行鸟，飞向天空”</h3><p>该任务的解锁报酬“飞行鸟甲”将变更为成就币交换获得。</p>
+<p>※相关成就将不再能获得。</p>
+<h3 id="在所有的地区追加任务目标的高低差显示"><a href="#在所有的地区追加任务目标的高低差显示" class="headerlink" title="在所有的地区追加任务目标的高低差显示"></a>在所有的地区追加任务目标的高低差显示</h3><p>※目前已经有部分任务已经显示。5.3版本将为所有的任务追加此功能。</p>
+<h3 id="昔日重现追加新章节"><a href="#昔日重现追加新章节" class="headerlink" title="昔日重现追加新章节"></a>昔日重现追加新章节</h3><p>※各职业、特职（战斗、生产、采集）的职业任务。</p>
+<p>※能工巧匠、大地使者的职业任务中出现需要缴纳特定物品推进任务进度的部分，在昔日重现中缴纳的物品不消耗（之前写的不需要缴纳物品是翻错了）。</p>
+<h2 id="理符相关"><a href="#理符相关" class="headerlink" title="理符相关"></a>理符相关</h2><p>骑乘坐骑中也可以开始或中止各种理符了。</p>
+<h2 id="寻宝相关"><a href="#寻宝相关" class="headerlink" title="寻宝相关"></a>寻宝相关</h2><h3 id="G12追加新报酬"><a href="#G12追加新报酬" class="headerlink" title="G12追加新报酬"></a>G12追加新报酬</h3><h3 id="“梦羽宝境”进行变更"><a href="#“梦羽宝境”进行变更" class="headerlink" title="“梦羽宝境”进行变更"></a>“梦羽宝境”进行变更</h3><ul>
+<li>追加新的报酬。</li>
+<li>追加“装备品级同步：505”</li>
+</ul>
+<h2 id="GC-x2F-FC相关"><a href="#GC-x2F-FC相关" class="headerlink" title="GC&#x2F;FC相关"></a>GC&#x2F;FC相关</h2><h3 id="追加新的部队合建项目"><a href="#追加新的部队合建项目" class="headerlink" title="追加新的部队合建项目"></a>追加新的部队合建项目</h3><p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_12.png?1596786950"></p>
+<h3 id="潜水艇进行变更"><a href="#潜水艇进行变更" class="headerlink" title="潜水艇进行变更"></a>潜水艇进行变更</h3><ul>
+<li>等级上限：70→75</li>
+<li>追加新的目的地。</li>
+<li>追加新的可获得道具。</li>
+<li>在指定无法出航的部件并试图关闭窗口时会显示警告信息。</li>
+</ul>
+<h3 id="各GC的补给担当官里追加新的可交换道具"><a href="#各GC的补给担当官里追加新的可交换道具" class="headerlink" title="各GC的补给担当官里追加新的可交换道具"></a>各GC的补给担当官里追加新的可交换道具</h3><ul>
+<li>布丁的肉：200军票</li>
+</ul>
+<h2 id="住宅区关联"><a href="#住宅区关联" class="headerlink" title="住宅区关联"></a>住宅区关联</h2><h3 id="实装家具设计大赛中的获奖作品"><a href="#实装家具设计大赛中的获奖作品" class="headerlink" title="实装家具设计大赛中的获奖作品"></a>实装家具设计大赛中的获奖作品</h3><p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_13.png?1596786950"></p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_14.png?1596786950"></p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_15.png?1596786950"></p>
+<p>家具设计大赛2019的详细介绍请<a target="_blank" rel="noopener" href="https://sqex.to/Pv0en">参照这里</a>。</p>
+<p>另外，也实装一些并未获奖的作品。</p>
+<h3 id="实装家具"><a href="#实装家具" class="headerlink" title="实装家具"></a>实装家具</h3><p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_16.png?1596786950"></p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_17.png?1596786950"></p>
+<h3 id="假人的可选种族追加维埃拉族、硌狮族"><a href="#假人的可选种族追加维埃拉族、硌狮族" class="headerlink" title="假人的可选种族追加维埃拉族、硌狮族"></a>假人的可选种族追加维埃拉族、硌狮族</h3><p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_18.png?1596786950"></p>
+<h3 id="新的乐谱"><a href="#新的乐谱" class="headerlink" title="新的乐谱"></a>新的乐谱</h3><h3 id="追加水族箱可饲养的鱼"><a href="#追加水族箱可饲养的鱼" class="headerlink" title="追加水族箱可饲养的鱼"></a>追加水族箱可饲养的鱼</h3><h3 id="追加盆栽里可种的新种子"><a href="#追加盆栽里可种的新种子" class="headerlink" title="追加盆栽里可种的新种子"></a>追加盆栽里可种的新种子</h3><ul>
+<li>秋英花的种子</li>
+</ul>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_20.png?1596786950"></p>
+<h3 id="追加田里可种的新种子"><a href="#追加田里可种的新种子" class="headerlink" title="追加田里可种的新种子"></a>追加田里可种的新种子</h3><ul>
+<li>亚拉戈西瓜的种子<ul>
+<li>亚拉戈西瓜的种子可在各地住宅区NPC购入</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_21.png?1596786950"></p>
+<h2 id="金碟游乐场相关"><a href="#金碟游乐场相关" class="headerlink" title="金碟游乐场相关"></a>金碟游乐场相关</h2><h3 id="陆行鸟赛跑不再显示平均等待时间"><a href="#陆行鸟赛跑不再显示平均等待时间" class="headerlink" title="陆行鸟赛跑不再显示平均等待时间"></a>陆行鸟赛跑不再显示平均等待时间</h3><ul>
+<li>匹配条件没有变化。</li>
+</ul>
+<h3 id="九宫幻卡"><a href="#九宫幻卡" class="headerlink" title="九宫幻卡"></a>九宫幻卡</h3><ul>
+<li>追加新的卡片。</li>
+<li>追加新的可对战NPC。</li>
+</ul>
+<h3 id="多玛麻将"><a href="#多玛麻将" class="headerlink" title="多玛麻将"></a>多玛麻将</h3><ul>
+<li>发生包牌的时候，在帮助里显示包牌的说明。</li>
+<li>使用手柄操作时，修改了光标显示的位置。</li>
+</ul>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_22.png?1596786950"></p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="新的副本“藏俏的幻想盘”"><a href="#新的副本“藏俏的幻想盘”" class="headerlink" title="新的副本“藏俏的幻想盘”"></a>新的副本“藏俏的幻想盘”</h3><p>接受奇妙的会说话的狐狸”藏俏“的委托，挑战激斗的记忆”幻讨伐战“吧。完成挑战可以推进小游戏的进度，甚至可以获得珍贵的道具？</p>
+<p>什么是幻讨伐战？</p>
+<p>将过去实装的极讨伐战的等级上限提升到80，体验实装当时的难度的战斗。</p>
+<p>版本5.3的幻讨伐战</p>
+<p>版本5.3开放的是幻希瓦讨伐战。</p>
+<p>※幻讨伐战的内容是限时内容，会随着版本号的更替而切换为别的副本。</p>
+<p>幻想盘</p>
+<p>通关幻讨伐战，每周可以获得一次挑战机会的小游戏。在盘面上寻找隐藏的图案，来获得用于交换稀有道具的”幻之叶“。</p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_24.png?1596786950"></p>
+<p>※幻讨伐战的完成情况以及游玩幻想盘的资格会在每周二下午16：00（北京时间）重置。</p>
+<p>游玩方法：</p>
+<p>幻想盘的格子最多可以揭开11次。如果收集齐一个图案的全部格子，就可以依照图案获得一定数量的”幻之叶“。越是难以找到的小图案，”幻之叶“的数量就会越多，所以请尽量猜测图案的出现位置，尽量寻找价值更高的图案吧！</p>
+<p>额外奖励</p>
+<p>找出“交叉的剑”图案可以获得一次额外挑战“幻讨伐战”权利的额外奖励。再次通关后可以再一次挑战幻想盘。利用额外奖励获得更多的”幻之叶“吧！</p>
+<p>※额外奖励每周只能发动一次。</p>
+<p>奖励</p>
+<p>幻想盘获得的”幻之叶“可以在田园郡（5.7，6.1）的NPC“藏俏”处交换各种各样的道具。</p>
+<h3 id="库洛的空想帐的变更"><a href="#库洛的空想帐的变更" class="headerlink" title="库洛的空想帐的变更"></a>库洛的空想帐的变更</h3><ul>
+<li>集齐9个印，领取奖励时可以获得经验。<ul>
+<li>若要领取经验，当前职业必须为“战斗职业”或“战斗特职”（不包含受限职业）。</li>
+<li>版本5.3实装之前的空想帐无法获得该项奖励。</li>
+</ul>
+</li>
+<li>库洛的金奖、银奖、铜奖追加新的道具。<ul>
+<li>会追加一些至今为止只出现在空想帐奖励中的道具。</li>
+</ul>
+</li>
+<li>不拥有等级为80的战斗职业或战斗特职时，能选择的奖励的种类从3种变为2种。</li>
+</ul>
+<h3 id="攻略笔记变更"><a href="#攻略笔记变更" class="headerlink" title="攻略笔记变更"></a>攻略笔记变更</h3><ul>
+<li>追加“分解5次道具”的项目。<ul>
+<li>完成该项目时，若当前职业为“能工巧匠”则可以获得经验值。</li>
+</ul>
+</li>
+<li>删除“镶嵌5次魔晶石”的项目。</li>
+</ul>
+<h3 id="新的情感动作"><a href="#新的情感动作" class="headerlink" title="新的情感动作"></a>新的情感动作</h3><p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_26.png?1596786950"></p>
+<h1 id="战斗相关"><a href="#战斗相关" class="headerlink" title="战斗相关"></a>战斗相关</h1><h2 id="技能调整"><a href="#技能调整" class="headerlink" title="技能调整"></a>技能调整</h2><h3 id="战士"><a href="#战士" class="headerlink" title="战士"></a>战士</h3><ul>
+<li>狂暴：追加效果：“延长暴风碎状态15秒。最大可延长至60秒”</li>
+<li>秘银暴风：延长暴风碎状态15→<strong>30</strong>秒。最大可延长至30→<strong>60</strong>秒。</li>
+<li>暴风碎：追加效果“已经处于暴风碎状态时，延长30秒。最大可延长至60秒”</li>
+<li>原初的解放：追加效果：“延长暴风碎状态15秒。最大可延长至60秒”</li>
+<li>原初的勇猛：效果变更：“赋予自身原初的勇猛状态。指定队伍中一位队友使用时，同时赋予队友原初的勇猛【被】状态。”</li>
+</ul>
+<h3 id="绝枪战士"><a href="#绝枪战士" class="headerlink" title="绝枪战士"></a>绝枪战士</h3><ul>
+<li>残暴弹：<ul>
+<li>回复力：150→<strong>200</strong></li>
+<li>效果时间：10秒→<strong>30秒</strong></li>
+<li>不论是否已经持有该护盾，使用该技能时必定使用新护盾覆盖现有的护盾。</li>
+</ul>
+</li>
+</ul>
+<h3 id="武僧"><a href="#武僧" class="headerlink" title="武僧"></a>武僧</h3><ul>
+<li>震脚：复唱时间：120秒→<strong>90秒</strong></li>
+<li>演武：效果变更：“<strong>猛豹形的追加效果</strong>：将疾风迅雷的持续时间延长到最大”→“<strong>追加效果</strong>：将疾风迅雷的持续时间延长到最大”</li>
+</ul>
+<h3 id="吟游诗人"><a href="#吟游诗人" class="headerlink" title="吟游诗人"></a>吟游诗人</h3><ul>
+<li>侧风诱导箭：2DoT时的威力：300→<strong>350</strong></li>
+<li>辉煌箭：威力：330→<strong>340</strong></li>
+<li>爆发射击：威力：230→<strong>240</strong></li>
+</ul>
+<h3 id="机工士"><a href="#机工士" class="headerlink" title="机工士"></a>机工士</h3><ul>
+<li>超荷：追加说明文：“仅对机工士的特职技能有效。”<ul>
+<li>实际效果没有任何变更。</li>
+</ul>
+</li>
+</ul>
+<h3 id="召唤师"><a href="#召唤师" class="headerlink" title="召唤师"></a>召唤师</h3><ul>
+<li>三重灾祸：威力：300→<strong>150</strong></li>
+</ul>
+<h3 id="学者"><a href="#学者" class="headerlink" title="学者"></a>学者</h3><ul>
+<li>士气高扬之策：MP消耗：1300→<strong>1100</strong></li>
+</ul>
+<h3 id="占星术士"><a href="#占星术士" class="headerlink" title="占星术士"></a>占星术士</h3><ul>
+<li>光速：删除效果：“减少50%MP消耗。”</li>
+<li>阳星：MP消耗：900→<strong>700</strong></li>
+<li>福星：MP消耗：900→<strong>700</strong></li>
+<li>抽卡：追加效果：“自身的MP回复最大MP的8%。”</li>
+<li>吉星相位：MP消耗：500&#x2F;900→<strong>400&#x2F;700</strong></li>
+<li>阳星相位：MP消耗：1000→<strong>800</strong></li>
+<li>炽灼：MP消耗：500→<strong>400</strong></li>
+<li>袖内抽卡：效果变更<ul>
+<li>新效果：“抽取一张自身尚未持有对应标记的卡片。尚未持有任何标记、或者已经持有全部的3种标记的时候，会随机抽取6张卡片中的1张。自身的MP回复最大MP的8%。”</li>
+</ul>
+</li>
+<li>天宫图：效果变更：“在持续时间中再次使用时，对拥有天宫图或阳星天宫图状态的队友进行回复”→“<strong>持续时间结束或</strong>在持续时间中再次使用时，对拥有天宫图或阳星天宫图状态的队友进行回复。”</li>
+<li>中间学派：在黑夜学派效果下的该技能赋予“吉星相位”与“阳星相位”2种持续回复效果現在可以共存了。（之前理解錯了）</li>
+</ul>
+<h2 id="部分技能和状态修改了说明"><a href="#部分技能和状态修改了说明" class="headerlink" title="部分技能和状态修改了说明"></a>部分技能和状态修改了说明</h2><h2 id="从无法战斗状态回复时获得的无敌时间将用“生还”buff表示在状态栏"><a href="#从无法战斗状态回复时获得的无敌时间将用“生还”buff表示在状态栏" class="headerlink" title="从无法战斗状态回复时获得的无敌时间将用“生还”buff表示在状态栏"></a>从无法战斗状态回复时获得的无敌时间将用“生还”buff表示在状态栏</h2><h2 id="青魔法书现在可以为技能组合命名"><a href="#青魔法书现在可以为技能组合命名" class="headerlink" title="青魔法书现在可以为技能组合命名"></a>青魔法书现在可以为技能组合命名</h2><h2 id="副本修改"><a href="#副本修改" class="headerlink" title="副本修改"></a>副本修改</h2><h3 id="新的4人副本“漆黑决战-诺弗兰特”"><a href="#新的4人副本“漆黑决战-诺弗兰特”" class="headerlink" title="新的4人副本“漆黑决战 诺弗兰特”"></a>新的4人副本“漆黑决战 诺弗兰特”</h3><p>可以使用信赖系统参加。</p>
+<p>进入所需装备品级：iLv460～</p>
+<h3 id="初次通关4人副本时会获得追加的经验值"><a href="#初次通关4人副本时会获得追加的经验值" class="headerlink" title="初次通关4人副本时会获得追加的经验值"></a>初次通关4人副本时会获得追加的经验值</h3><h3 id="“雾中行军黄金谷”的数币巨人的攻击现在会显示范围"><a href="#“雾中行军黄金谷”的数币巨人的攻击现在会显示范围" class="headerlink" title="“雾中行军黄金谷”的数币巨人的攻击现在会显示范围"></a>“雾中行军黄金谷”的数币巨人的攻击现在会显示范围</h3><p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_56.png?1596786950"></p>
+<h3 id="现存的4人副本的修改"><a href="#现存的4人副本的修改" class="headerlink" title="现存的4人副本的修改"></a>现存的4人副本的修改</h3><p>宝箱内容删除了以下的道具。（仅掉落以下道具的宝箱将会整个宝箱被删除）</p>
+<ul>
+<li>所有非首饰、且名称中带有“以太”的装备。</li>
+<li>各类伤药、各类以太药、军票交换的50级素材用品（兽脂树汁块那些）</li>
+<li>所有名称中含有“古旧的”的白色装备。</li>
+</ul>
+<p>以下副本的宝箱的内容进行了变更，以更好地获得对应该等级带的装备品。</p>
+<ul>
+<li>同时，通关后会依照当前的职业、特职必定获得1件武器或装备。</li>
+<li>必定获得的武器和装备不会与当前所持、兵装库中的物品相同。</li>
+</ul>
+<ol>
+<li>天然要害 沙斯塔夏溶洞</li>
+<li>地下灵殿 塔姆塔拉墓园</li>
+<li>封锁坑道 铜铃铜山</li>
+<li>魔兽领域 日影地修炼所</li>
+<li>监狱废墟 托托拉克千狱</li>
+<li>名门豪宅 静语庄园</li>
+<li>夺还支援 布雷弗洛克斯野营地</li>
+<li>遗迹探索 喀恩埋没寺院</li>
+<li>流沙迷宫 樵鸣洞</li>
+<li>城塞攻略 石卫塔</li>
+<li>扫讨作战 泽梅尔要塞</li>
+<li>雾中行军 黄金谷</li>
+</ol>
+<h3 id="新的讨伐战“？？？？？？？？战”"><a href="#新的讨伐战“？？？？？？？？战”" class="headerlink" title="新的讨伐战“？？？？？？？？战”"></a>新的讨伐战“？？？？？？？？战”</h3><p>进入要求装备品级：iLv465～</p>
+<h3 id="新的讨伐战“极？？？？？？？？战”"><a href="#新的讨伐战“极？？？？？？？？战”" class="headerlink" title="新的讨伐战“极？？？？？？？？战”"></a>新的讨伐战“极？？？？？？？？战”</h3><p>进入要求装备品级：iLv480～</p>
+<h3 id="新的讨伐战“幻希瓦讨伐战”"><a href="#新的讨伐战“幻希瓦讨伐战”" class="headerlink" title="新的讨伐战“幻希瓦讨伐战”"></a>新的讨伐战“幻希瓦讨伐战”</h3><p>进入要求装备品级：iLv430～</p>
+<p>装备品级同步：iLv435</p>
+<h3 id="“极哈迪斯讨伐战”的魔笛掉落率增加"><a href="#“极哈迪斯讨伐战”的魔笛掉落率增加" class="headerlink" title="“极哈迪斯讨伐战”的魔笛掉落率增加"></a>“极哈迪斯讨伐战”的魔笛掉落率增加</h3><p>同时可以使用99个低保交换</p>
+<h3 id="撤除希望之园伊甸：共鸣篇奖励的周限制。"><a href="#撤除希望之园伊甸：共鸣篇奖励的周限制。" class="headerlink" title="撤除希望之园伊甸：共鸣篇奖励的周限制。"></a>撤除希望之园伊甸：共鸣篇奖励的周限制。</h3><p>※“希望之园伊甸：共鸣篇4”的通关报酬“古老的剑【共】”不撤除周限制。</p>
+<p>※交换超耐久型神典石的“古老的剑【共】”所需数目由7→4。</p>
+<h3 id="新的团队副本“人偶们的军事基地”"><a href="#新的团队副本“人偶们的军事基地”" class="headerlink" title="新的团队副本“人偶们的军事基地”"></a>新的团队副本“人偶们的军事基地”</h3><p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_31.png?1596786950"></p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_32.png?1596786950"></p>
+<p>进入要求装备品级：iLv465～</p>
+<p>本副本含有每周限制。每周在该副本内能获得的装备仅能获取1件。</p>
+<p>每周第一次通关该副本时，还会获得2个“惰性星形晶簇”和1个“人偶的古钱”。</p>
+<p>以上的周限制在每周二下午16：00（北京时间）重置。</p>
+<h3 id="删除“复制工厂废墟”的通关报酬中的“惰性星形晶簇”"><a href="#删除“复制工厂废墟”的通关报酬中的“惰性星形晶簇”" class="headerlink" title="删除“复制工厂废墟”的通关报酬中的“惰性星形晶簇”"></a>删除“复制工厂废墟”的通关报酬中的“惰性星形晶簇”</h3><h3 id="“卫兵团的强化纤维”及“卫兵团的硬化药”增加获得方式"><a href="#“卫兵团的强化纤维”及“卫兵团的硬化药”增加获得方式" class="headerlink" title="“卫兵团的强化纤维”及“卫兵团的硬化药”增加获得方式"></a>“卫兵团的强化纤维”及“卫兵团的硬化药”增加获得方式</h3><p>可以使用“人偶的古钱”及“机械的古钱”各1枚交换1个“卫兵团的强化纤维”或“卫兵团的硬化药”</p>
+<h3 id="以下副本追加“超越之力”"><a href="#以下副本追加“超越之力”" class="headerlink" title="以下副本追加“超越之力”"></a>以下副本追加“超越之力”</h3><ul>
+<li>红宝石神兵破坏作战<ul>
+<li>每层10%，最高5层</li>
+</ul>
+</li>
+<li>极红宝石神兵破坏作战、极博兹雅追忆战<ul>
+<li>每层5%，最高5层</li>
+</ul>
+</li>
+</ul>
+<h3 id="“随机任务：高难度”副本池变更"><a href="#“随机任务：高难度”副本池变更" class="headerlink" title="“随机任务：高难度”副本池变更"></a>“随机任务：高难度”副本池变更</h3><ul>
+<li>删除“魔法宫殿 宇宙宫”</li>
+<li>追加“漆黑决战 诺弗兰特”</li>
+<li>参加条件上调至iLv460～。</li>
+</ul>
+<h3 id="“随机任务：80级”副本池变更"><a href="#“随机任务：80级”副本池变更" class="headerlink" title="“随机任务：80级”副本池变更"></a>“随机任务：80级”副本池变更</h3><ul>
+<li>追加“魔法宫殿 宇宙宫”</li>
+<li>参加条件上调至iLv430～。</li>
+</ul>
+<h1 id="PVP相关"><a href="#PVP相关" class="headerlink" title="PVP相关"></a>PVP相关</h1><p>赛季15结束，赛季16开始。</p>
+<h2 id="技能调整-1"><a href="#技能调整-1" class="headerlink" title="技能调整"></a>技能调整</h2><h3 id="TANK共通"><a href="#TANK共通" class="headerlink" title="TANK共通"></a>TANK共通</h3><ul>
+<li>雪仇：目标伤害减少从10%→20%</li>
+</ul>
+<h3 id="物理远程共通"><a href="#物理远程共通" class="headerlink" title="物理远程共通"></a>物理远程共通</h3><ul>
+<li>集中：复唱时间：30秒→15秒</li>
+</ul>
+<h3 id="魔法远程共通"><a href="#魔法远程共通" class="headerlink" title="魔法远程共通"></a>魔法远程共通</h3><ul>
+<li>吸收：威力：600～1800→600～<strong>2400</strong></li>
+<li>病毒：目标伤害减少从20%→40%</li>
+<li>即刻咏唱：复唱时间：30秒→15秒</li>
+<li>魔罩：复唱时间：45秒→30秒</li>
+<li>以太爆发：复唱时间：60秒→45秒</li>
+</ul>
+<h3 id="治疗共通"><a href="#治疗共通" class="headerlink" title="治疗共通"></a>治疗共通</h3><ul>
+<li>调和：复唱时间：60秒→30秒</li>
+<li>营救：<ul>
+<li>删除效果：“目标处于击退无效以及特殊的异常状态时使用失败。”</li>
+<li>追加效果：“解除目标受到的”死斗“状态。”</li>
+</ul>
+</li>
+</ul>
+<h3 id="骑士"><a href="#骑士" class="headerlink" title="骑士"></a>骑士</h3><ul>
+<li>悔罪：“目标<strong>造成的伤害</strong>减少10%”→“目标<strong>造成的回复效果</strong>减少10%”</li>
+<li>神圣领域：复唱时间：90秒→60秒；持续时间：6秒→5秒</li>
+<li>连环盾：复唱时间：60秒→45秒</li>
+</ul>
+<h3 id="战士-1"><a href="#战士-1" class="headerlink" title="战士"></a>战士</h3><ul>
+<li>重劈：追加效果：“兽魂增加10点”</li>
+<li>摆脱：复唱时间：60秒→45秒</li>
+<li>混沌旋风：目标受到的伤害增加5%→<strong>10%</strong></li>
+</ul>
+<h3 id="暗黑骑士"><a href="#暗黑骑士" class="headerlink" title="暗黑骑士"></a>暗黑骑士</h3><ul>
+<li>漆黑之剑：目标受到的回复量减少20%→<strong>10%<strong>，持续6秒→</strong>10秒</strong></li>
+<li>漆黑波动：目标受到的回复量减少持续6秒→<strong>10秒</strong></li>
+<li>暗黑布道：复唱时间：60秒→45秒</li>
+</ul>
+<h3 id="绝枪战士-1"><a href="#绝枪战士-1" class="headerlink" title="绝枪战士"></a>绝枪战士</h3><ul>
+<li>弓形冲波：<ul>
+<li>删除效果：“解除目标的持续回复和护盾效果”。</li>
+<li>处于血壤【近】状态时追加“赋予目标50%加重”。</li>
+<li>处于血壤【远】状态时追加“赋予目标止步”。</li>
+</ul>
+</li>
+<li>闪雷弹：<ul>
+<li>删除“将乱射的效果时间延长至最大”。</li>
+<li>追加“效果时间中使用的第一个战技的伤害增加50%”。</li>
+</ul>
+</li>
+<li>烈牙、猛兽爪、凶禽爪<ul>
+<li>删除“赋予自身乱射效果”。</li>
+<li>追加“吸收造成伤害的100%作为自身HP”。</li>
+</ul>
+</li>
+<li>爆发强袭、命运之环：删除“赋予自身乱射效果”。</li>
+<li>新技能：血壤<ul>
+<li>赋予目标弱化状态及自身强化状态。自身已经持有其中一种强化效果的时候，使用新强化效果将其覆盖。<ul>
+<li>目标为近战职业时：目标受到的伤害+10%，自身受到的伤害-10%</li>
+<li>目标为远程职业时：目标造成的伤害与回复效果-10%，自身造成的伤害与回复效果+10%</li>
+</ul>
+</li>
+<li>弱化状态持续10秒。</li>
+<li>强化状态持续60秒。</li>
+</ul>
+</li>
+<li>删除“光之心”技能。</li>
+</ul>
+<h3 id="武僧-1"><a href="#武僧-1" class="headerlink" title="武僧"></a>武僧</h3><ul>
+<li>金刚极意：护盾的效果量：2000→<strong>2500</strong></li>
+<li>斗魂旋风脚、阴阳斗气斩：威力：1800→<strong>2000</strong></li>
+</ul>
+<h3 id="武士"><a href="#武士" class="headerlink" title="武士"></a>武士</h3><ul>
+<li>必杀剑·地天：威力：1000→<strong>1200</strong></li>
+</ul>
+<h3 id="吟游诗人-1"><a href="#吟游诗人-1" class="headerlink" title="吟游诗人"></a>吟游诗人</h3><ul>
+<li>连珠箭：威力：600→<strong>800</strong></li>
+<li>九天连箭：威力：800→<strong>1000</strong></li>
+<li>后跃射击：威力：400→<strong>800</strong></li>
+</ul>
+<h3 id="机工士-1"><a href="#机工士-1" class="headerlink" title="机工士"></a>机工士</h3><ul>
+<li>散射：威力：600→<strong>800</strong></li>
+<li>自动弩弓：威力：1400→<strong>1600</strong></li>
+<li>弹射：威力：600→<strong>800</strong></li>
+<li>野火：伤害储存比率：25%→<strong>33%</strong></li>
+<li>毒菌爆发：威力：1400→<strong>1600</strong></li>
+<li>空包弹：威力：600→<strong>800</strong></li>
+<li>空气锚：威力：1600→<strong>2000</strong></li>
+</ul>
+<h3 id="黑魔法师"><a href="#黑魔法师" class="headerlink" title="黑魔法师"></a>黑魔法师</h3><ul>
+<li>火炎：MP消耗：0→<strong>1000</strong>；星极火的伤害提升：10%→<strong>20%</strong></li>
+<li>冰结：灵极冰的咏唱与复唱时间缩短10%→<strong>20%</strong></li>
+<li>炽炎：MP消耗：2500→<strong>2000</strong></li>
+<li>核爆：MP消耗：5000→<strong>4000</strong>；星极火的伤害提升：10%→<strong>20%</strong></li>
+<li>玄冰：灵极冰的咏唱与复唱时间缩短10%→<strong>20%</strong></li>
+<li>闪雷：咏唱时间：1.5秒→<strong>0</strong></li>
+<li>震雷：咏唱时间：1.5秒→<strong>0</strong></li>
+<li>异言：威力：3200→<strong>2400</strong></li>
+<li>秽浊：威力：2400→<strong>1800</strong>；咏唱时间：2.0秒→<strong>0</strong></li>
+<li>天语：赋予“通晓”所需的时间：30秒→<strong>15秒</strong></li>
+<li>夜翼：复唱时间：60秒→<strong>45秒</strong></li>
+</ul>
+<h3 id="召唤师-1"><a href="#召唤师-1" class="headerlink" title="召唤师"></a>召唤师</h3><ul>
+<li>迸发：咏唱时间：2秒→<strong>1.5秒</strong></li>
+<li>溃烂爆发：威力：800→<strong>1000</strong></li>
+<li>痛苦核爆：复唱时间：60秒→<strong>45秒</strong></li>
+</ul>
+<h3 id="学者-1"><a href="#学者-1" class="headerlink" title="学者"></a>学者</h3><ul>
+<li>蛊毒法：目标受到的回复减少20%→<strong>15%</strong></li>
+<li>转化：HP回复效果提升50%→<strong>40%</strong></li>
+</ul>
+<h3 id="占星术士-1"><a href="#占星术士-1" class="headerlink" title="占星术士"></a>占星术士</h3><ul>
+<li>焚灼：追加效果“目标的战技和魔法的咏唱与复唱时间增加10%”→“目标造成的伤害与回复效果减少10%”。</li>
+<li>占卜：复唱时间：90秒→60秒</li>
+</ul>
+<h2 id="纷争前线"><a href="#纷争前线" class="headerlink" title="纷争前线"></a>纷争前线</h2><h3 id="等待时间由90秒变为45秒。"><a href="#等待时间由90秒变为45秒。" class="headerlink" title="等待时间由90秒变为45秒。"></a>等待时间由90秒变为45秒。</h3><h3 id="TANK与近战DPS的伤害补正由-15-→-10"><a href="#TANK与近战DPS的伤害补正由-15-→-10" class="headerlink" title="TANK与近战DPS的伤害补正由+15%→+10%"></a>TANK与近战DPS的伤害补正由+15%→+10%</h3><h3 id="龙骑士与忍者的受伤补正由-30-→-25"><a href="#龙骑士与忍者的受伤补正由-30-→-25" class="headerlink" title="龙骑士与忍者的受伤补正由-30%→-25%"></a>龙骑士与忍者的受伤补正由-30%→-25%</h3><h3 id="赤魔法师的受伤补正由0→-20"><a href="#赤魔法师的受伤补正由0→-20" class="headerlink" title="赤魔法师的受伤补正由0→-20%"></a>赤魔法师的受伤补正由0→-20%</h3><h3 id="日替变更"><a href="#日替变更" class="headerlink" title="日替变更"></a>日替变更</h3><p>变更前：</p>
+<ol>
+<li>外缘遗迹群&#x2F;昂萨哈凯尔</li>
+<li>尘封秘岩&#x2F;昂萨哈凯尔</li>
+<li>荣誉野&#x2F;昂萨哈凯尔</li>
+</ol>
+<p>变更后：</p>
+<ol>
+<li>外缘遗迹群</li>
+<li>尘封秘岩</li>
+<li>荣誉野</li>
+<li>昂萨哈凯尔</li>
+</ol>
+<p>每日23点（北京时间）变更当前开放的规则。非开放日的规则无法申请参加。</p>
+<p>每日任务同样变为该副本。</p>
+<h2 id="RW"><a href="#RW" class="headerlink" title="RW"></a>RW</h2><h3 id="等待时间由90秒变为45秒。-1"><a href="#等待时间由90秒变为45秒。-1" class="headerlink" title="等待时间由90秒变为45秒。"></a>等待时间由90秒变为45秒。</h3><h3 id="TANK与近战DPS的伤害补正由-10-→0"><a href="#TANK与近战DPS的伤害补正由-10-→0" class="headerlink" title="TANK与近战DPS的伤害补正由+10%→0%"></a>TANK与近战DPS的伤害补正由+10%→0%</h3><h3 id="龙骑士与忍者的受伤补正由-20-→-15"><a href="#龙骑士与忍者的受伤补正由-20-→-15" class="headerlink" title="龙骑士与忍者的受伤补正由-20%→-15%"></a>龙骑士与忍者的受伤补正由-20%→-15%</h3><h3 id="赤魔法师的受伤补正由0→-10"><a href="#赤魔法师的受伤补正由0→-10" class="headerlink" title="赤魔法师的受伤补正由0→-10%"></a>赤魔法师的受伤补正由0→-10%</h3><h3 id="限制时间由20分钟变为15分钟。"><a href="#限制时间由20分钟变为15分钟。" class="headerlink" title="限制时间由20分钟变为15分钟。"></a>限制时间由20分钟变为15分钟。</h3><p>一些详细的修改（不玩这个，看不懂）</p>
+<h1 id="物品相关"><a href="#物品相关" class="headerlink" title="物品相关"></a>物品相关</h1><h3 id="新道具"><a href="#新道具" class="headerlink" title="新道具"></a>新道具</h3><p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_33.png?1596786950"></p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_34.png?1596786950"></p>
+<h3 id="删除了以下物品的制作配方"><a href="#删除了以下物品的制作配方" class="headerlink" title="删除了以下物品的制作配方"></a>删除了以下物品的制作配方</h3><ul>
+<li>各职业中名称带有“饿狼”的55品级装备的制作配方、炼金术士的“伊卡洛斯之翼”、“技力回复之羽”<ul>
+<li>该类物品可以在狼狱停船场使用PVP点数交换。</li>
+</ul>
+</li>
+<li>第二次复兴用练习作品</li>
+<li>第8卷的练习用品（两种）</li>
+</ul>
+<h3 id="480新式可以交换490新式RE"><a href="#480新式可以交换490新式RE" class="headerlink" title="480新式可以交换490新式RE"></a>480新式可以交换490新式RE</h3><h3 id="追加亚拉戈神典石兑换的综合商店"><a href="#追加亚拉戈神典石兑换的综合商店" class="headerlink" title="追加亚拉戈神典石兑换的综合商店"></a>追加亚拉戈神典石兑换的综合商店</h3><p>对应商店需要完成对应的x.0版本的主线任务后才会开放</p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_35.png?1596786950"></p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_36.png?1596786950"></p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_37.png?1596786950"></p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_38.png?1596786950"></p>
+<p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_39.png?1596786950"></p>
+<p>随着该项修改，亚拉戈神典石：诗学交换的装备进行以下变更。</p>
+<ul>
+<li>删除强化前的装备，只能交换到RE装备。</li>
+<li>删除强化用的素材。<ul>
+<li>同时删除部分只能用于交换强化用素材的物品。</li>
+</ul>
+</li>
+<li>银色陆行鸟羽毛交换可以获得的诗学装备全部变更为RE版。</li>
+<li>特职冒险录附带的诗学装备全部变更为RE版。</li>
+<li>在各个城市的遗失物管理人处可以将强化前的田园装备、斯卡艾瓦装备交换为RE版。<ul>
+<li>交换时每件装备需要消耗100诗学。</li>
+</ul>
+</li>
+</ul>
+<p>随着该项修改，同盟徽章·兵团徽章交换的装备进行以下变更。</p>
+<ul>
+<li>删除强化前的装备，只能交换到RE装备。</li>
+<li>删除强化用的素材。<ul>
+<li>同时删除部分只能用于交换强化用素材的物品。</li>
+</ul>
+</li>
+<li>60级职业任务附带的装备箱内的装备全部变更为RE版。</li>
+</ul>
+<p>随着该项修改，巧手黄票·大地黄票交换的装备进行以下变更。</p>
+<ul>
+<li>删除强化前的装备，只能交换到RE装备。</li>
+<li>删除强化用的素材。</li>
+</ul>
+<h3 id="追加新的制作素材商店"><a href="#追加新的制作素材商店" class="headerlink" title="追加新的制作素材商店"></a>追加新的制作素材商店</h3><ul>
+<li><p>高地拉诺西亚 (X:14.8 Y:24.2) NPC“素材屋”</p>
+</li>
+<li><p>高地拉诺西亚 (X:14.8 Y:24.2) NPC“素材屋”</p>
+<ul>
+<li>以上的两位素材屋只贩卖古旧装备。<ul>
+<li>古旧装备是用于制作古典装备的素材。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>田园郡 (X:5.9 Y:7.3) NPC“素材屋”</p>
+</li>
+<li><p>神拳痕 (X:9.6 Y:11.8) NPC“素材屋”</p>
+</li>
+<li><p>乌尔达哈：扎尔回廊 (X:10.0 Y:12.5) NPC“宝飾店 シレイアス”</p>
+</li>
+</ul>
+<h3 id="修改整理指令的排序结果"><a href="#修改整理指令的排序结果" class="headerlink" title="修改整理指令的排序结果"></a>修改整理指令的排序结果</h3><p>该修改后，整理指令会将功能类似的道具排列在相近的位置。</p>
+<h3 id="修改部分道具的卖店价格"><a href="#修改部分道具的卖店价格" class="headerlink" title="修改部分道具的卖店价格"></a>修改部分道具的卖店价格</h3><h3 id="部分道具解锁卖店、分解、交军票"><a href="#部分道具解锁卖店、分解、交军票" class="headerlink" title="部分道具解锁卖店、分解、交军票"></a>部分道具解锁卖店、分解、交军票</h3><h3 id="ZW、AW、EW的复制品的装备品级修改为1"><a href="#ZW、AW、EW的复制品的装备品级修改为1" class="headerlink" title="ZW、AW、EW的复制品的装备品级修改为1"></a>ZW、AW、EW的复制品的装备品级修改为1</h3><h3 id="战斗中减少装备耐久度的时间点变更"><a href="#战斗中减少装备耐久度的时间点变更" class="headerlink" title="战斗中减少装备耐久度的时间点变更"></a>战斗中减少装备耐久度的时间点变更</h3><p>为了减轻服务器的负担。</p>
+<p>变更前：击杀怪物后</p>
+<p>变更后：完成副本时</p>
+<p>（宝物库及FATE攻略失败时也会变动。陷入无法战斗状态时的耐久度减少不变更）</p>
+<p>随着该修改、在大地图（含BA以外的优雷卡）上击杀野怪及完成理符任务将不会再获得精炼度、损失耐久度。</p>
+<h3 id="可以从道具检索可制作的物品"><a href="#可以从道具检索可制作的物品" class="headerlink" title="可以从道具检索可制作的物品"></a>可以从道具检索可制作的物品</h3><p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_41.png?1596786950"></p>
+<h3 id="追加制作练习"><a href="#追加制作练习" class="headerlink" title="追加制作练习"></a>追加制作练习</h3><p>可以不消耗材料与触媒尝试制作道具。</p>
+<ul>
+<li>随着制作练习系统的实装，之前的练习素材系统废止，商店也不再出售。</li>
+</ul>
+<h3 id="删除以下“能工巧匠”的技能"><a href="#删除以下“能工巧匠”的技能" class="headerlink" title="删除以下“能工巧匠”的技能"></a>删除以下“能工巧匠”的技能</h3><ul>
+<li>收藏品制作</li>
+</ul>
+<p>伴随该技能的删除，现存等级51～80的“可以选择制作收藏品”的配方将无法再制作收藏品。</p>
+<h3 id="追加新的“能工巧匠”的特性"><a href="#追加新的“能工巧匠”的特性" class="headerlink" title="追加新的“能工巧匠”的特性"></a>追加新的“能工巧匠”的特性</h3><ul>
+<li>Lv15 制作练习：可以进行制作练习。</li>
+</ul>
+<h3 id="制作窗口进行变更"><a href="#制作窗口进行变更" class="headerlink" title="制作窗口进行变更"></a>制作窗口进行变更</h3><ul>
+<li>使用游戏手柄操作时，预测效率的按钮分配快捷键：Y</li>
+</ul>
+<h3 id="增加新的老主顾：艾尔·杜"><a href="#增加新的老主顾：艾尔·杜" class="headerlink" title="增加新的老主顾：艾尔·杜"></a>增加新的老主顾：艾尔·杜</h3><ul>
+<li>艾尔·杜无法进行换装。</li>
+</ul>
+<h3 id="罗薇娜商会的“收集品交易”窗口变更"><a href="#罗薇娜商会的“收集品交易”窗口变更" class="headerlink" title="罗薇娜商会的“收集品交易”窗口变更"></a>罗薇娜商会的“收集品交易”窗口变更</h3><ul>
+<li>修改了能工巧匠的缴纳列表。<ul>
+<li>伴随该修改，版本5.3之前的道具全部将不再能够缴纳收藏品。已经制作的收藏品可以在摩杜纳 (X:22.3 Y:6.7) 的收藏品回收窗口进行回收。</li>
+</ul>
+</li>
+<li>收藏品的对象列表固定化，不再每天变更<ul>
+<li>伴随该修改，不再有每天变更的额外报酬。另外，缴纳列表也将从每日任务一览中删除。</li>
+</ul>
+</li>
+</ul>
+<h3 id="炼金术士的头花系列配方修改"><a href="#炼金术士的头花系列配方修改" class="headerlink" title="炼金术士的头花系列配方修改"></a>炼金术士的头花系列配方修改</h3><p>由等级配方修改为特殊→其他→头花系配方</p>
+<h3 id="“大地使者”的特性“隐匿”的效果调整"><a href="#“大地使者”的特性“隐匿”的效果调整" class="headerlink" title="“大地使者”的特性“隐匿”的效果调整"></a>“大地使者”的特性“隐匿”的效果调整</h3><p>变更前：发动时间：切换职业的时候</p>
+<p>变更后：发动时间：切换职业及切换地图的时候</p>
+<h3 id="追加新的采集点"><a href="#追加新的采集点" class="headerlink" title="追加新的采集点"></a>追加新的采集点</h3><h3 id="追加新的采集道具和鱼"><a href="#追加新的采集道具和鱼" class="headerlink" title="追加新的采集道具和鱼"></a>追加新的采集道具和鱼</h3><h3 id="修改采集特效的说明"><a href="#修改采集特效的说明" class="headerlink" title="修改采集特效的说明"></a>修改采集特效的说明</h3><p>变更前：鉴别力未满xxx→HQ率0%</p>
+<p>变更后：鉴别力达到xxx→可以获得HQ道具</p>
+<p><img src="https://img.finalfantasyxiv.com/t/be09de93d501995f197aa688525e6fc2ef9bb246_47.png?1597054136"></p>
+<p>※仅修改了说明，不修改实际的线</p>
+<h3 id="大洋垂钓调整"><a href="#大洋垂钓调整" class="headerlink" title="大洋垂钓调整"></a>大洋垂钓调整</h3><ul>
+<li>显示每条鱼的具体点数。<ul>
+<li>HQ鱼或通过双重提钩钓上的复数鱼均会显示补正后的点数</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://img.finalfantasyxiv.com/t/be09de93d501995f197aa688525e6fc2ef9bb246_48.png?1597054136"></p>
+<h3 id="垂钓调整"><a href="#垂钓调整" class="headerlink" title="垂钓调整"></a>垂钓调整</h3><p>部分垂钓笔记里的鱼显示具体的垂钓条件。</p>
+<h3 id="物品效果调整"><a href="#物品效果调整" class="headerlink" title="物品效果调整"></a>物品效果调整</h3><ul>
+<li>军用工程指南&#x2F;军用生存指南<ul>
+<li>经验值获得量+50%→**+150%（Lv40～效果减半）**</li>
+<li>额外经验上限：150000→<strong>500000</strong></li>
+<li>效果时间：180分钟→<strong>18小时</strong></li>
+</ul>
+</li>
+<li>军用工程指南：第二卷&#x2F;军用生存指南：第二卷<ul>
+<li>经验值获得量+50%→**+150%（Lv50～效果减半）**</li>
+<li>额外经验上限：300000→<strong>1000000</strong></li>
+<li>效果时间：180分钟→<strong>18小时</strong></li>
+</ul>
+</li>
+<li>商用工程指南&#x2F;商用生存指南<ul>
+<li>效果时间：180分钟→<strong>18小时</strong></li>
+</ul>
+</li>
+<li>改订版工程指南&#x2F;改订版生存指南<ul>
+<li>经验值获得量+100%→**+150%（Lv80～效果减半）**</li>
+</ul>
+</li>
+</ul>
+<h3 id="分解系统变更"><a href="#分解系统变更" class="headerlink" title="分解系统变更"></a>分解系统变更</h3><p>等级上限：480→490</p>
+<p>新增连续分解系统，可以连续分解堆叠的物品。</p>
+<h3 id="新坐骑"><a href="#新坐骑" class="headerlink" title="新坐骑"></a>新坐骑</h3><p><img src="https://img.finalfantasyxiv.com/t/9dfc443a3d023e55f98d8b5fb2204fda35201a3f_50.png?1596786950"></p>
+<h3 id="新鸟甲、新宠物"><a href="#新鸟甲、新宠物" class="headerlink" title="新鸟甲、新宠物"></a>新鸟甲、新宠物</h3><h1 id="系统相关"><a href="#系统相关" class="headerlink" title="系统相关"></a>系统相关</h1><h3 id="新成就、新称号"><a href="#新成就、新称号" class="headerlink" title="新成就、新称号"></a>新成就、新称号</h3><h3 id="雇员探险的碎晶、水晶获取量上升"><a href="#雇员探险的碎晶、水晶获取量上升" class="headerlink" title="雇员探险的碎晶、水晶获取量上升"></a>雇员探险的碎晶、水晶获取量上升</h3><h3 id="每日可以好友申请的人数由5→7"><a href="#每日可以好友申请的人数由5→7" class="headerlink" title="每日可以好友申请的人数由5→7"></a>每日可以好友申请的人数由5→7</h3><h3 id="处于跨服组队中也可以进行跨服移动了"><a href="#处于跨服组队中也可以进行跨服移动了" class="headerlink" title="处于跨服组队中也可以进行跨服移动了"></a>处于跨服组队中也可以进行跨服移动了</h3><h3 id="招募系统变更"><a href="#招募系统变更" class="headerlink" title="招募系统变更"></a>招募系统变更</h3><ul>
+<li>满足募集条件的情况下，可以在处于本服组队状态中直接全队加入招募</li>
+<li>可以在招募中指定职业不重复</li>
+<li>可以在招募中设定超越之力无效</li>
+<li>可以在招募中搜索回放OK、超越之力无效的招募</li>
+<li>删除“优雷卡”分类，追加“特殊地图探索”分类</li>
+<li>变更部分UI</li>
+</ul>
+<h3 id="放弃任务投票追加“保留”选项"><a href="#放弃任务投票追加“保留”选项" class="headerlink" title="放弃任务投票追加“保留”选项"></a>放弃任务投票追加“保留”选项</h3><ul>
+<li>一开始写的弃权是理解错了，保留是先把窗口最小化一会儿再投票</li>
+</ul>
+<h3 id="目标信息、焦点目标信息中现在会优先显示自身赋予的buff-x2F-debuff"><a href="#目标信息、焦点目标信息中现在会优先显示自身赋予的buff-x2F-debuff" class="headerlink" title="目标信息、焦点目标信息中现在会优先显示自身赋予的buff&#x2F;debuff"></a>目标信息、焦点目标信息中现在会优先显示自身赋予的buff&#x2F;debuff</h3><p>不含自身的召唤物赋予的buff&#x2F;debuff。</p>
+<h3 id="木人的仇恨现在可以随意重置了"><a href="#木人的仇恨现在可以随意重置了" class="headerlink" title="木人的仇恨现在可以随意重置了"></a>木人的仇恨现在可以随意重置了</h3><p>右键选择木人，选择“重置木人仇恨”选项即可重置木人仇恨。</p>
+<p>※不含木人讨伐战中的木人。</p>
+<h3 id="Group-Pose功能变更"><a href="#Group-Pose功能变更" class="headerlink" title="Group Pose功能变更"></a>Group Pose功能变更</h3><ul>
+<li>贴纸功能</li>
+</ul>
+<p><img src="https://img.finalfantasyxiv.com/t/be09de93d501995f197aa688525e6fc2ef9bb246_52.png?1597054136"></p>
+<ul>
+<li>唇膏功能</li>
+</ul>
+<p><img src="https://img.finalfantasyxiv.com/t/be09de93d501995f197aa688525e6fc2ef9bb246_54.png?1597054136"></p>
+<ul>
+<li>仅视线追随摄像机视角的功能</li>
+</ul>
+<p><img src="https://img.finalfantasyxiv.com/t/be09de93d501995f197aa688525e6fc2ef9bb246_55.png?1597054136"></p>
+<p>现在可以显示食用家具的动作了。</p>
+<h3 id="现在游玩基础包的账户追加“苍天的伊修加德”内容的游玩权利"><a href="#现在游玩基础包的账户追加“苍天的伊修加德”内容的游玩权利" class="headerlink" title="现在游玩基础包的账户追加“苍天的伊修加德”内容的游玩权利"></a>现在游玩基础包的账户追加“苍天的伊修加德”内容的游玩权利</h3><h3 id="免费试玩内容进行变更"><a href="#免费试玩内容进行变更" class="headerlink" title="免费试玩内容进行变更"></a>免费试玩内容进行变更</h3><ul>
+<li>等级上限：35→60</li>
+<li>游戏内容范围：至“苍天的伊修加德”（3.56）版本为止</li>
+<li>游戏标题变更</li>
+<li>深层迷宫“死者宫殿”的可游玩范围从B1～B10 → B1～B200</li>
+</ul>
+<h1 id="BUG修正"><a href="#BUG修正" class="headerlink" title="BUG修正"></a>BUG修正</h1><h2 id="修复了以下的BUG"><a href="#修复了以下的BUG" class="headerlink" title="修复了以下的BUG"></a>修复了以下的BUG</h2><p>（没有全部翻译，懒）</p>
+<ul>
+<li>位于刚古什的玩家无法被玩家搜索检索到</li>
+<li>刚古什在特定条件下无法显示影子</li>
+<li>主线任务“纯白誓约、漆黑密约”的任务战斗中，本应赋予操作角色的“疾跑”状态未能成功赋予</li>
+<li>主线任务“鲲沙族的野望”中，与位于鲲沙地窖的NPC“琳”反复对话时会变得无法操作。</li>
+<li>支线任务“博兹雅蒸发事变”的任务战斗中，特定条件下无法正确显示仇恨列表。</li>
+<li>支线任务“博兹雅蒸发事变”的任务战斗中，部分敌人和NPC的技能无法正确显示于战斗记录中。</li>
+<li>支线任务“博兹雅蒸发事变”的任务战斗中，部分敌人的技能特效无法正确显示。</li>
+<li>支线任务“博兹雅蒸发事变”的任务战斗中，在特定条件下使用指令“变更游戏内窗口大小”时，游戏内窗口显示的对话内容也会改变。</li>
+<li>维尔利特战役中可以确认的“解放军的将校的报告书”里记载的NPC“米利桑迪亚”的年龄不正确。<ul>
+<li>游戏中显示的文本是30岁，但正确的是20岁。</li>
+</ul>
+</li>
+<li>学者在“光之低语”状态中使用“夕月召唤”的话有时会减少“光之低语”的回复量。</li>
+<li>魔法宫殿宇宙宫的3BOSS在特定条件下解除“必灭之炎”debuff的物品的碰撞判定不正确。</li>
+<li>贤王莫古力讨伐战中，敌人使用的“死亡莫古警告”的伤害不正确。</li>
+<li>吉尔伽美什讨伐战、真吉尔伽美什讨伐战的场地封锁后外面的玩家无法传送进入战斗场地。</li>
+<li>极博兹雅追忆战中敌人使用的“魔导闪电”的效果音量过大。</li>
+<li>纷争前线及RW的战斗中，于团队聊天频道键入&#x2F;dice的话，敌人也可以在聊天记录里看见骰子结果。</li>
+<li>高地龙堡的部分狩猎怪和FATE的出现地点重合。</li>
+<li>魔导书“山羊革魔导书DX”的属性错误。</li>
+<li>装备“史莱姆王皇冠”的时候，有时在吹强风的地区也不会晃动。</li>
+<li>家具“静语庄园的梳妆台”的贴图不正确。</li>
+<li>在部分家具上跳跃或移动时没有踩踏声。</li>
+<li>利姆萨·罗敏萨：下甲板层的部分地区不是水域却可以使用渔师的技能“抛竿”。</li>
+<li>维埃拉族的声音类型4中，情感动作“不满”与“惊讶”的声音装反了。</li>
+</ul>
+<h2 id="确认但尚未修正的BUG"><a href="#确认但尚未修正的BUG" class="headerlink" title="确认但尚未修正的BUG"></a>确认但尚未修正的BUG</h2><p>（没有全部翻译，懒）</p>
+<ul>
+<li>团队副本“人偶们的军事基地”里，如果全部的24人都从一个与前进方向不同的特定地点跳下的话，不会出现本应出现的该前进的道路。<ul>
+<li>发生本BUG时，仅需至少1人使用指令“返回”回到起点并进入正确的道路，就会出现前进的道路。</li>
+</ul>
+</li>
+<li>版本5.3新追加的部分素材缺失了“[能工巧匠用素材]”的说明文本。</li>
+<li>Group Pose的贴纸模式中、字体贴纸的可贴范围不正确。<ul>
+<li>正常情况下，即使字体贴纸的一半都到了画面外仍然应是可以贴的。</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/FF14/" rel="tag"># FF14</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/c69bbed4/" rel="prev" title="20200804">
+                  <i class="fa fa-chevron-left"></i> 20200804
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/8b516d39/" rel="next" title="【翻译】漆黑秘话5 荣光的落日">
+                  【翻译】漆黑秘话5 荣光的落日 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="waline-comments"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Shimizu Shio</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a> 爆炎电击
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+
+
+
+
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"https://versal-deploy-784rxqutl-shimizushio.vercel.app/","placeholder":"波加曼怎么办？","avatar":"mm","pageSize":10,"visitor":false,"comment_count":true,"requiredFields":[],"meta":["nick","mail","link"],"libUrl":"https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js","el":"#waline-comments","path":"/a222c2e0/"}</script>
+<script>
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() => 
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => {
+    new Waline(CONFIG.waline);
+  });
+});
+</script>
+</body>
+</html>
